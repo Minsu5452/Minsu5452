@@ -1,15 +1,12 @@
 ## Profile 👋
-Minsu Kang
-* To Be Data Scientist
-* Kookmin Univ. in 2024 major in AI Big Data & Management, and minor in Computer Science.
+***Minsu Kang***
+* "The important thing is an unbreakable heart"
+* Kookmin Univ. in 2024 major in AI Big Data & Management.
 
 
 ## ☎️ Contact
-<a href="https://jh-datahouse.tistory.com/">
-    <img 
-        src="http://img.shields.io/badge/-Tistory-97979A?style=flat&logo=Tistory&link=https://jh-datahouse.tistory.com//&logoColor=white">
     
- <img src="https://img.shields.io/badge/jinho5913@naver.com-03C75A?style=flat&logo=Naver&logoColor=white"/>
+ <img src="https://img.shields.io/badge/daro98@naver.com-03C75A?style=flat&logo=Naver&logoColor=white"/>
 
 </a>
 
@@ -26,25 +23,28 @@ Minsu Kang
 
 | 기간 | 소속 | 전공 & 교육 | 학위 | 비고 |
 | :------: | :------: | :------: | :------: | :------: |
-| 2018.03 ~ | 국민대학교  | 빅데이터경영통계전공(AI빅데이터융합경영학과) | 제1전공 | 재학 |
-| 2021.03 ~ | 국민대학교 | 데이터사이언스전공 | 융합전공 | 재학 |
-| 2021.03 ~ 2022.12 | D&A | 빅데이터 학회(ML/DL) | 맴버 | [링크](https://cms.kookmin.ac.kr/kmu-dna/index.do)|
-| 2021.08.21 ~ 2022.08.13 | BITAmin | 빅데이터 연합 대외 동아리(ML/DL) | 맴버 | [수료](https://github.com/jinho5913/jinho5913/blob/main/%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A1%E1%86%B8%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%A1%E1%84%85%E1%85%B5%20%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1%E1%84%86%E1%85%B5%E1%86%AB%20%E1%84%89%E1%85%AE%E1%84%85%E1%85%AD%E1%84%8C%E1%85%B3%E1%86%BC.jpeg) |
-| 2023.03 ~ | SKT DEVOCEAN YOUNG 2기 | 대학생 테크인플루언서 | 맴버 | [링크](https://devocean.sk.com/) |
-
-## 📔 Career
-
-| 기간 | 소속 | 부서 | 담당 | 비고 |
-| :------: | :------: | :------: | :------: | :------: |
-| 2022.12 ~ 2023.02 | 노리스페이스 | AI Researcher(인턴) | 시계열 예측, NER | [홈페이지](https://www.norispace.com/)
+| 2018.03 ~ 2024.08 | 국민대학교  | 빅데이터경영통계전공(AI빅데이터융합경영학과) | 제1전공 | 졸업 |
+| 2022.03 ~ 2022.12 | D&A | 빅데이터 학회(ML) | 멤버 | [링크](https://github.com/Minsu5452/D.A_ML)|
+| 2023.03 ~ 2023.12 | D&A | 빅데이터 학회(DL) | 멤버 | [링크](https://github.com/Minsu5452/D.A_DL)|
+| 2023.09.01 ~ 2024.03.31 | BDA | 빅데이터 연합 대외 동아리(ML/DL) | 멤버 | [수료](https://www.notion.so/7-68135c4f4689480082811b5fc453332e) |
+| 2023.07.01 ~ 2023.09.27 | LG Aimers 3기 | LG그룹 청년 AI 교육 프로그램 | 멤버 | [링크](https://github.com/Minsu5452/Minsu5452/blob/main/LG%20AI.pdf) |
+| 2023.10.06 ~ 2023.11.23 | 국민대학교 경영대학 | 연결고리 14기 멘토링 | 멤버 | [링크](https://github.com/Minsu5452/Mentor_Mentee) |
     
 
 ## 🏅 Competition
-| 연도 | 주최 | 내용 | 역할 | 비고 |
-| :------: | :------: | :------: | :------: | :------: |
-| 2022 | MAICON | 항공 이미지 데이터를 활용한 건물 변화 탐지 | 팀장 | [링크](https://github.com/jinho5913/CV_Detecting-buildings-using-aircraft-image-data-data) |
-| 2022 | BigContest | 앱 사용성 데이터를 통한 대출신청 예측분석 | 팀장 | [링크](https://github.com/jinho5913/ML_Prediction-Analysis-of-Loan-Application) |
-| 2022 | L-point | 고객 구매 데이터 기반 예측 모델 개발 및 개인화 마케팅 전략 제안 | 팀장 | [링크](https://github.com/jinho5913/ML_Developing-a-Purchase-Forecast-model) |
+| 연도 | 주최 | 내용 | 역할 | 수상 | 비고 | 
+| :------: | :------: | :------: | :------: | :------: | :------: |
+| 2023 | DACON | 유전체 정보 품종 분류 AI 경진대회 | 팀장 | 1st | [링크](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) |
+| 2023 | DACON | 법원 판결 예측 AI 경진대회 | 팀장 | 2nd | [링크](https://github.com/Minsu5452/Court_Judgment_Prediction) |
+| 2023 | HD현대,Dacon | HD현대 AI Challenge | 팀원 | 2nd | [링크](https://github.com/Minsu5452/HD_Hyundai_AI_Challenge) |
+| 2023 | LG,DACON | 온라인 채널 제품 판매량 예측 AI 온라인 해커톤 | 팀원 | 12th | [링크](https://github.com/Minsu5452/Online_Product_Sales_Prediction) |
+| 2023 | DACON | 2023 전력사용량 예측 AI 경진대회 | 팀장 | 107th | [링크](https://github.com/Minsu5452/Power_Consumption_Forecasting) |
+| 2023 | 경찰대학 | 2023년 지역 치안 안전 데이터 분석 공모전 | 개인 | 예선 | [링크](https://github.com/Minsu5452/Traffic_Accident_Prediction) |
+| 2023 | AIFactory | 지역사회 대기오염 예측 인공지능 모델 개발 | 팀원 | 예선 | [링크](https://github.com/Minsu5452/Air_Pollution_Forecasting) |
+| 2023 | 농림축산식품부 | 2023 스마트농업 AI 경진대회 | 팀장 | 예선 | [링크](https://github.com/Minsu5452/Smart_Agriculture) |
+| 2023 | 한국원격대학협의회 | 제3회 소외계층을 위한 AI활용 아이디어 공모전 | 팀장 | 예선 | [링크](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
+| 2022 | DACON | 감귤 착과량 예측 AI 경진대회 | 팀장 | 17th | [링크](https://github.com/Minsu5452/Citrus_Yield_Prediction) |
+| 2022 | L-point | 고객 구매 데이터 기반 예측 모델 개발 및 개인화 마케팅 전략 제안 | 팀원 | 예선 | [링크](https://github.com/Minsu5452/L-point) |
 
 
 
@@ -52,16 +52,18 @@ Minsu Kang
 
 | 연도 | 분류 | 프로젝트명 | 역할 | 비고 |
 | :------: | :------: | :------: | :------: | :------: |
-| 2023 | NLP | 네이버페이 사용 로그 분석 | 팀장 | [논문 작성중](https://github.com/jinho5913/NLP_Investigate-Naver-Pay-usage-logs) |
-| 2023 | NLP | NER을 통한 영수증 거래내역 추출 | 개인 | [링크](https://github.com/jinho5913/NLP_Receipt-data-NER) |
-| 2023 | Time Series | 샐러드 수요량 예측 모델 개발 | 개인 | [링크](https://github.com/jinho5913/DL_Time-Series-Forecasting) |
-| 2022 | CV | Facial Keypoint를 활용한 영상 편집점 마킹 기술 개발 | 팀장 | [논문 작성중](https://github.com/jinho5913/CV_Development-of-Video-Editing-Point-Marking-Technology-Using-Facial-Keypoint) |
-| 2022 | ZeroShotLearning, 음성합성 | ZeroShot Learning과 TTS를 활용한 목소리 합성 | 팀원 | [링크](https://github.com/jinho5913/ZtarGAN-VC) |
-| 2022 | 추천시스템 | 무신사 리뷰를 통한 옷 추천시스템 개발 | 팀장 | [정리중](https://github.com/jinho5913/RS_Review-based-Clothing-Recommendation-System) |
-| 2022 | Static | 유망주 축구선수 다변량 통계 분석 | 팀원 | [링크](https://github.com/jinho5913/Static_Analysis-of-promising-soccer-players) |
-| 2022 | 자연어분석 | 교보문고 베스트셀러 분석 | 개인 | [링크](https://github.com/jinho5913/NLP_Kyobo-Bookstore-Best-Seller-Analysis) |
-| 2022 | 자연어분석 | 다음 뉴스 기사 분석 | 개인 | [링크](https://github.com/jinho5913/NLP_Daum-New-Analysis) |
-| 2021 | ML | 설문조사 응답 여부 예측 | 팀장 | [링크](https://github.com/jinho5913/ML_Predict-survey-responses) |
-| 2021 | ML | ML 자율 스터디 | 기획, 운영 | [링크](https://github.com/jinho5913/ML_Self-Group-Study) |
-| 2021 | 데이터분석 | 생활 속 My Data를 활용한 자기 분석 | 개인 | [링크](https://github.com/jinho5913/DA_Self-Analysis-with-My-Data) |
-| 2021 | 데이터분석 | 백화점 고객분석 통한 마케팅 전략 제시 | 팀장 | [링크](https://github.com/jinho5913/DA_Business-analysis-with-Data) |
+| 2023 | NLP | NER을 통한 영수증 거래내역 추출 | 개인 | [링크](https://github.com/Minsu5452/Receipt_Data_NER) |
+| 2023 | Time Series | 샐러드 수요량 예측 모델 개발 | 개인 | [링크](https://github.com/Minsu5452/Time_Series_Forecasting) |
+| 2022 | Web Crawling, Text Mining | 웹 크롤링 활용하여 텍스트 데이터 분석 | 개인 | [링크](https://github.com/Minsu5452/Text_Mining) |
+| 2022 | CV | Colorization Sota 모델들 Fine tuning | 팀원 | [링크](https://github.com/Minsu5452/Deep_Learning) |
+| 2022 | ML | 머신러닝 팀프로젝트 및 Competition | 팀장 | [링크](https://github.com/Minsu5452/Machine_Learning) |
+| 2021 | Python | Python 기초 스터디 | 팀장 | [링크](https://github.com/Minsu5452/Python_study) |
+
+
+## 📔 Conference 
+
+| 기간 | 주최 | 내용 | 비고 |
+| :------: | :------: | :------: | :------: |
+| 2023.02.09 ~ 2023.02.10 | 에이아이프렌즈학회 | 2023년 제2차 실용 인공지능 학술대회 논문 기재 | [홈페이지](https://github.com/Minsu5452/AAiCON2023) |
+
+
