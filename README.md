@@ -6,8 +6,7 @@
 
 ## ☎️ Contact
 
- <img src="https://img.shields.io/badge/daro980722@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/>   
- <img src="https://img.shields.io/badge/daro98@naver.com-03C75A?style=flat&logo=Naver&logoColor=white"/>
+ <img src="https://img.shields.io/badge/daro980722@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/> <img src="https://img.shields.io/badge/daro98@naver.com-03C75A?style=flat&logo=Naver&logoColor=white"/>
 
 </a>
 
