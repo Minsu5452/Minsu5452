@@ -35,7 +35,7 @@
 | :------: | :------: | :------: | :------: | :------: | :------: |
 | 2023 | DACON | 유전체 정보 품종 분류 AI 경진대회 | 팀장 | 1st | [링크](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) |
 | 2023 | DACON | 법원 판결 예측 AI 경진대회 | 팀장 | 2nd | [링크](https://github.com/Minsu5452/Court_Judgment_Prediction) |
-| 2023 | HD현대,Dacon | HD현대 AI Challenge | 팀원 | 2nd | [링크](https://github.com/Minsu5452/HD_Hyundai_AI_Challenge) |
+| 2023 | HD현대,DACON | HD현대 AI Challenge | 팀원 | 2nd | [링크](https://github.com/Minsu5452/HD_Hyundai_AI_Challenge) |
 | 2023 | LG,DACON | 온라인 채널 제품 판매량 예측 AI 온라인 해커톤 | 팀원 | 12th | [링크](https://github.com/Minsu5452/Online_Product_Sales_Prediction) |
 | 2023 | DACON | 2023 전력사용량 예측 AI 경진대회 | 팀장 | 107th | [링크](https://github.com/Minsu5452/Power_Consumption_Forecasting) |
 | 2023 | 경찰대학 | 2023년 지역 치안 안전 데이터 분석 공모전 | 개인 | 예선 | [링크](https://github.com/Minsu5452/Traffic_Accident_Prediction) |
