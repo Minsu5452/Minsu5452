@@ -60,7 +60,7 @@
 | :------: | :------: | :------: | :------: | :------: |
 | 2025 | Data Analysis, Algorithm Dev, Deployment | 해양 데이터 기반 분석 및 알고리즘 개발·배포 (AI융복합) | 개인 | 링크 |
 | 2025 | Agent Verification, Data Processing | KT 에이전트 검증 데이터셋 생성 및 검증 | 개인 | 링크 |
-| 2025 | LLM, Data Collection, Fine-tuning, RAG | 오픈소스 LLM 기반 해양 솔루션 개발 (CDX) | 개인 | 링크 |
+| 2025 | LLM, Data Collection, Fine-tuning, RAG | 오픈소스 기반 해양 특화 LLM 개발 (CDX) | 개인 | 링크 |
 | 2025 | Research | ML 검증 가이드라인 자료조사 및 논문 정리 | 개인 | 링크 |
 | 2023 | NLP | NER을 통한 영수증 거래내역 추출 | 개인 | [링크](https://github.com/Minsu5452/Receipt_Data_NER) |
 | 2023 | Time Series | 샐러드 수요량 예측 모델 개발 | 개인 | [링크](https://github.com/Minsu5452/Time_Series_Forecasting) |
