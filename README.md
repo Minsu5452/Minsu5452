@@ -28,6 +28,13 @@
 | 2023.09.01 ~ 2024.03.31 | BDA | 빅데이터 연합 대외 동아리(ML/DL) | 멤버 | [수료](https://www.notion.so/7-68135c4f4689480082811b5fc453332e) |
 | 2023.07.01 ~ 2023.09.27 | LG Aimers 3기 | LG그룹 청년 AI 교육 프로그램 | 멤버 | [링크](https://github.com/Minsu5452/Minsu5452/blob/main/LG%20AI.pdf) |
 | 2023.10.06 ~ 2023.11.23 | 국민대학교 경영대학 | 연결고리 14기 멘토링 | 멤버 | [링크](https://github.com/Minsu5452/Mentor_Mentee) |
+
+
+## 💼 Work Experience
+
+| 기간 | 소속 | 부서 | 직무 | 비고 |
+| :------: | :------: | :------: | :------: | :------: |
+| 2025.06.02 ~ 현재 | 슈어소프트테크 | AX응용기술팀 | AI 개발 인턴 | 재직중 |
     
 
 ## 🏅 Competition
@@ -47,10 +54,14 @@
 
 
 
-## 💻  Project
+## 💻 Project
 
 | 연도 | 분류 | 프로젝트명 | 역할 | 비고 |
 | :------: | :------: | :------: | :------: | :------: |
+| 2025 | Data Analysis | 해양 데이터 기반 분석 및 알고리즘 개발 (AI융복합) | 개인 | 링크 |
+| 2025 | LLM, Data Processing | KT AI 서비스 데이터 구축 및 관리 | 개인 | 링크 |
+| 2025 | LLM, RAG, Fine-tuning | 해양 분야 LLM 기반 솔루션 개발 (CDX) | 개인 | 링크 |
+| 2025 | Research | ML 검증 가이드라인 자료조사 및 논문 정리 | 개인 | 링크 |
 | 2023 | NLP | NER을 통한 영수증 거래내역 추출 | 개인 | [링크](https://github.com/Minsu5452/Receipt_Data_NER) |
 | 2023 | Time Series | 샐러드 수요량 예측 모델 개발 | 개인 | [링크](https://github.com/Minsu5452/Time_Series_Forecasting) |
 | 2022 | Web Crawling, Text Mining | 웹 크롤링 활용하여 텍스트 데이터 분석 | 개인 | [링크](https://github.com/Minsu5452/Text_Mining) |
@@ -64,5 +75,3 @@
 | 기간 | 주최 | 내용 | 비고 |
 | :------: | :------: | :------: | :------: |
 | 2023.02.09 ~ 2023.02.10 | 에이아이프렌즈학회 | 2023년 제2차 실용 인공지능 학술대회 논문 기재 | [링크](https://github.com/Minsu5452/AAiCON2023) |
-
-
