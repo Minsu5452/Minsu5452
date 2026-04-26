@@ -4,25 +4,25 @@
 
 [이메일](mailto:daro980722@gmail.com) · [DACON](https://dacon.io/myprofile/457768/home)
 
-## 관심 분야
+## Focus
 
 - LLM 평가 자동화: 다중 LLM 채점, queue/worker 구조, HMAC 기반 API 연동
 - RAG / GraphRAG: 공개 문서 수집, 조문 단위 parsing, retrieval workflow 구성
-- 예측 모델 서비스화: tabular/time-series 모델링, SHAP 분석, FastAPI/Streamlit/React 연동
+- 예측 모델 서비스화: tabular/time-series 모델링, 설명가능성 분석, API·대시보드 연동
 - 경진대회 솔루션 정리: 재현 가능한 notebook, modular pipeline, public README 정리
 
-## 주요 프로젝트
+## Selected Projects
 
-| 프로젝트 | 설명 | 기술 |
+| 프로젝트 | 설명 | 키워드 |
 | --- | --- | --- |
-| [LLM 평가 시스템](https://github.com/Minsu5452/LLM_Evaluation_System) | 해커톤 제출물을 다중 LLM으로 평가하고 callback으로 결과를 반환하는 FastAPI 서비스 | FastAPI, Redis, asyncio, Docker |
-| [운수종사자 사고 위험 예측 웹 플랫폼](https://github.com/Minsu5452/Driver_Risk_Web_Platform) | 검사 데이터 업로드부터 위험 예측, SHAP 설명, 관리자 재학습, Windows 배포까지 연결한 풀스택 데모 | React, Spring Boot, FastAPI, SHAP |
-| [해양 도메인 RAG](https://github.com/Minsu5452/Marine_Domain_RAG) | 국가법령정보 API 기반 해양 법령 수집·파싱·검색·질의응답 파이프라인 | LangGraph, FAISS, GraphRAG |
-| [해양사고 위험 예측](https://github.com/Minsu5452/Marine_Accident_Risk_Prediction) | 공개 사고·격자·기상 데이터를 결합한 격자×시간 단위 사고 위험 예측 데모 | LightGBM, SHAP, FastAPI, Streamlit |
-| [운수종사자 인지 특성 위험 예측](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) | 인지검사 시퀀스와 과거 이력을 활용한 교통사고 위험 예측 경진대회 솔루션 | LightGBM, CatBoost |
-| [산업 지표 Lead-Lag 예측](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) | 산업 품목별 월간 시계열에서 선행·후행 관계를 찾고 follower 값을 예측 | DTW, PageRank, LightGBM |
+| [LLM 평가 시스템](https://github.com/Minsu5452/LLM_Evaluation_System) | 해커톤 제출물을 다중 LLM으로 평가하고 callback으로 결과를 반환하는 평가 서버 | LLM Evaluation, Queue, API |
+| [운수종사자 사고 위험 예측 웹 플랫폼](https://github.com/Minsu5452/Driver_Risk_Web_Platform) | 검사 데이터 업로드부터 위험 예측, 설명가능성, 관리자 재학습, Windows 배포까지 연결한 풀스택 데모 | Full-stack ML, Dashboard, Deployment |
+| [해양 도메인 RAG](https://github.com/Minsu5452/Marine_Domain_RAG) | 국가법령정보 API 기반 해양 법령 수집·파싱·검색·질의응답 파이프라인 | RAG, GraphRAG, Korean Legal QA |
+| [해양사고 위험 예측](https://github.com/Minsu5452/Marine_Accident_Risk_Prediction) | 공개 사고·격자·기상 데이터를 결합한 격자×시간 단위 사고 위험 예측 데모 | Risk Modeling, Explainability, Data App |
+| [운수종사자 인지 특성 위험 예측](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) | 인지검사 시퀀스와 과거 이력을 활용한 교통사고 위험 예측 경진대회 솔루션 | Tabular ML, Sequence Features |
+| [산업 지표 Lead-Lag 예측](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) | 산업 품목별 월간 시계열에서 선행·후행 관계를 찾고 follower 값을 예측 | Time Series, Graph Scoring |
 
-## 수상 및 경진대회
+## Awards & Competitions
 
 | 구분 | 결과 |
 | --- | --- |
@@ -35,7 +35,7 @@
 | 전력사용량 예측 AI 경진대회 | Top 8.7% |
 | 감귤 착과량 예측 AI 경진대회 | Top 6.6% |
 
-## 저장소 지도
+## Repository Map
 
 <details>
 <summary>2025-2026 프로젝트</summary>
@@ -76,25 +76,24 @@
 
 </details>
 
-## 기술
+## Core Skills
 
 | 구분 | 기술 |
 | --- | --- |
 | 언어 | Python, SQL |
-| ML / DL | PyTorch, scikit-learn, LightGBM, XGBoost, CatBoost, SHAP |
-| LLM / RAG | LangChain, LangGraph, Hugging Face, FAISS |
-| 백엔드 / 인프라 | FastAPI, Spring Boot, Docker, Redis, Nginx |
-| 프론트엔드 / 데이터 앱 | React, Vite, Mantine, Streamlit |
-| 데이터 처리 | Pandas, NumPy, Matplotlib |
+| 데이터 / 모델링 | feature engineering, tabular modeling, time-series forecasting, model evaluation |
+| LLM / RAG | LLM evaluation, RAG, GraphRAG, embedding search, prompt workflow |
+| 서비스 / 인프라 | API design, async worker, queue, Docker, Redis, Nginx |
+| 화면 / 데이터 앱 | React dashboard, Streamlit prototype, report automation |
 
-## 경력
+## Experience
 
 | 기간 | 소속 | 역할 |
 | --- | --- | --- |
 | 2025.12 - 현재 | 데이콘 Data Science팀 | 매니저 |
 | 2025.06 - 2025.11 | 슈어소프트테크 AX응용기술팀 | AI 개발자 인턴 |
 
-## 학력 및 자격
+## Education & Certificates
 
 - 국민대학교 AI빅데이터융합경영학과 학사
 - SQLD, 한국데이터산업진흥원
