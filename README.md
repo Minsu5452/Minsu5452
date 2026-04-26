@@ -1,32 +1,35 @@
 # Minsu Kang
 
-데이터 분석과 모델링을 실제 서비스 흐름까지 연결하는 일을 해왔습니다. 최근에는 LLM 평가 자동화, 한국어 RAG, 교통·해양 안전 도메인의 예측 모델을 중심으로 작업하고 있습니다.
+데이터 분석부터 모델링, 서비스 구현까지 한 사이클로 다루는 데이터 사이언티스트입니다. 최근에는 **LLM 평가 자동화**, **한국어 RAG**, **교통·해양 안전 도메인 예측 모델**을 중심으로 작업하고 있습니다.
 
 [Email](mailto:daro980722@gmail.com) · [DACON](https://dacon.io/myprofile/457768/home)
 
-## Focus
+## 🧭 Focus
 
-- LLM/RAG 시스템: 평가 자동화, 문서 수집·파싱, 검색 흐름 설계, 답변 품질 검증
-- ML 서비스화: 정형·시계열 모델링, 설명가능성 분석, API와 대시보드 연결
-- 도메인 문제 해결: 교통 안전, 해양 안전, 법률 NLP, 공공 데이터 기반 분석
-- 경진대회 솔루션 정리: 재현 가능한 notebook과 공개용 repository 정리
+| Category | What I Work On |
+| --- | --- |
+| LLM Evaluation | 다중 LLM 채점, queue/worker 구조, HMAC 기반 API 연동 |
+| RAG / GraphRAG | 공개 문서 수집·파싱, 검색 흐름 설계, 답변 품질 검증 |
+| ML Service | 정형·시계열 모델링, 설명가능성 분석, API·대시보드 연결 |
+| Domain Modeling | 교통 안전, 해양 안전, 법률 NLP, 공공 데이터 분석 |
+| Portfolio Engineering | 재현 가능한 notebook, 공개용 repository, README 정리 |
 
-## Selected Work
+## 🧩 Selected Work
 
-| Project | Description | Area |
+| Category | Project | Description |
 | --- | --- | --- |
-| [LLM Evaluation System](https://github.com/Minsu5452/LLM_Evaluation_System) | 해커톤 제출물을 여러 LLM으로 평가하고 결과를 callback으로 반환하는 평가 서버 | LLM Evaluation |
-| [Driver Risk Web Platform](https://github.com/Minsu5452/Driver_Risk_Web_Platform) | 운수종사자 검사 데이터 업로드, 사고 위험 예측, 관리자 재학습, Windows 배포까지 포함한 웹 플랫폼 | ML Service |
-| [Marine Domain RAG](https://github.com/Minsu5452/Marine_Domain_RAG) | 공개 법령 API를 수집·파싱하고 해양 법령 질의응답 흐름으로 구성한 RAG 데모 | RAG |
-| [Marine Accident Risk Prediction](https://github.com/Minsu5452/Marine_Accident_Risk_Prediction) | 공개 사고·격자·기상 데이터를 결합한 격자×시간 단위 해양사고 위험 예측 데모 | Risk Modeling |
-| [Driver Cognitive Risk Prediction](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) | 운수종사자 인지검사 시퀀스와 과거 이력을 활용한 교통사고 위험 예측 경진대회 솔루션 | Competition |
+| LLM | [LLM Evaluation System](https://github.com/Minsu5452/LLM_Evaluation_System) | 해커톤 제출물을 여러 LLM으로 평가하고 결과를 callback으로 반환하는 평가 서버 |
+| Full-stack ML | [Driver Risk Web Platform](https://github.com/Minsu5452/Driver_Risk_Web_Platform) | 운수종사자 검사 데이터 업로드, 사고 위험 예측, 관리자 재학습, Windows 배포까지 포함한 웹 플랫폼 |
+| RAG | [Marine Domain RAG](https://github.com/Minsu5452/Marine_Domain_RAG) | 공개 법령 API를 수집·파싱하고 해양 법령 질의응답 흐름으로 구성한 RAG 데모 |
+| Risk Modeling | [Marine Accident Risk Prediction](https://github.com/Minsu5452/Marine_Accident_Risk_Prediction) | 공개 사고·격자·기상 데이터를 결합한 격자×시간 단위 해양사고 위험 예측 데모 |
+| Competition | [Driver Cognitive Risk Prediction](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) | 운수종사자 인지검사 시퀀스와 과거 이력을 활용한 교통사고 위험 예측 솔루션 |
 
-## Highlights
+## 🏆 Highlights
 
 | Category | Result |
 | --- | --- |
-| Genomic Data Breed Classification | 1st / 716 teams |
-| Court Judgment Prediction | 2nd / 506 teams |
+| Genomic Data Breed Classification | 1st |
+| Court Judgment Prediction | 2nd |
 | HD Hyundai AI Challenge | Preliminary 2nd, Final 6th |
 | LG Online Sales Forecasting Hackathon | Preliminary Top 1.6%, Finalist |
 | Kookmin AI Big Data Analytics Competition | Top 5.2% |
@@ -35,7 +38,7 @@
 | Citrus Yield Prediction | Top 6.6% |
 | AAiCON 2023 | SNP 품종 분류 연구 논문 발표 |
 
-## Core Stack
+## 🛠 Core Stack
 
 | Area | Stack |
 | --- | --- |
@@ -44,14 +47,14 @@
 | Serving / Infra | FastAPI, Spring Boot, Docker, Redis, Nginx |
 | Frontend / Data App | React, Vite, Mantine, Streamlit |
 
-## Experience
+## 💼 Experience
 
 | Period | Organization | Role |
 | --- | --- | --- |
 | 2025.12 - Present | DACON, Data Science Team | Manager |
 | 2025.06 - 2025.11 | SureSoftTech, AX Applied Technology Team | AI Developer Intern |
 
-## Repository Index
+## 📂 Repository Index
 
 <details>
 <summary>LLM / RAG / Service</summary>
@@ -92,7 +95,7 @@
 
 </details>
 
-## Education & Certificates
+## 🎓 Education & Certificates
 
 - B.S. in AI Big Data Convergence Management, Kookmin University
 - SQLD, Korea Data Agency
