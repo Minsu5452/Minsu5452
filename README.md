@@ -25,9 +25,9 @@
 
 ## Education
 
-| 학교 | 학과 | 트랙 | 학위 | 기간 | 비고 |
-| --- | --- | --- | --- | --- | --- |
-| 국민대학교 | AI빅데이터융합경영학과 | 심화전공 | 학사 | 2018.03 ~ 2024.08 | 졸업 |
+| 학교 | 학과 | 학위 | 기간 | 비고 |
+| --- | --- | --- | --- | --- |
+| 국민대학교 | AI빅데이터융합경영학과 (심화전공) | 학사 | 2018.03 ~ 2024.08 | 졸업 |
 
 ## Keywords
 
@@ -36,21 +36,21 @@
 ## Experience
 
 ### 데이콘 — Data Science팀 · 대회 매니저
-> `2025.12~현재` · 약 5개월 — 대회 기획·운영, 채점 자동화, B2B 협업
+> `2025.12~현재` · 대회·해커톤 기획 / 운영, AI PoC 단독 실행
 
 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- |
-| LLM 평가 시스템 — Council 2단계 채점 | FastAPI · Redis(List/Hash/Sorted Set + Lua) · asyncio worker · HMAC-SHA256 · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | 다중 LLM Council 2단계 채점(1차 독립 평가 → 2차 종합 판단) 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 제출 횟수 보호 정책 수립, JSON 로깅·Prometheus metric·dashboard endpoint 까지 운영 가시성 확보 |
-| 운수종사자 사고 위험 예측 웹 플랫폼 (행안부·NIA·한국교통안전공단 위탁사업) | React(Vite, Mantine) · Spring Boot(eGovFrame) · FastAPI AI Engine · LightGBM/XGBoost/CatBoost ensemble · SHAP · Nginx · Windows 포터블 배포 | 프론트·백엔드·AI 엔진·외부망 분리 환경 포터블 배포까지 단독 개발 (PL 협업), A/B 검사 분리 tree ensemble + 시퀀스 통합 모델 + SHAP 개별 진단 리포트 |
+| LLM 평가 시스템 | FastAPI · Redis · asyncio · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | LLM Council 2단계 채점(1차 독립 → 2차 종합) 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 보호 정책 수립 |
+| 운수종사자 사고 위험 예측 웹 플랫폼 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 프론트·백엔드·AI 엔진·외부망 분리 포터블 배포까지 단독 개발 (PL 협업) |
 
 ### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
-> `2025.06~2025.11` · 6개월 — 해양사고 위험 예측, 해양 법령 도메인 RAG, 에이전트 검증 데이터
+> `2025.06~2025.11` · 해양사고 위험 예측 / 해양 법령 도메인 RAG / 에이전트 검증
 
 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- |
-| 해양사고 위험 예측 시스템 — 격자×시간 단위 (AI융복합) | LightGBM 5-fold CV · SHAP · FastAPI · Streamlit + pydeck · Docker · 해수부 GIS / level-4 격자 / NMPNT 해양기상 API | OOF AUC **0.946** / PR-AUC **0.742**, 0.025° 격자×시간 단위 위험 예측, 데이터 누설(positive에만 채워지는 ship_use_stat) 발견·prior 피처로 교체, 분석 → 모델 → 서빙 → 격자 대시보드 e2e 단독 구축 |
-| 해양 법령 도메인 RAG 파이프라인 (CDX) | KR-SBERT · FAISS + BM25 hybrid (0.6/0.4) · GraphRAG (1,221 nodes / 91,432 edges) · LangGraph 6-node workflow · EXAONE-3.5-2.4B GGUF Q4_K_M + llama-cpp-python | 해수부·해경 12개 법령 394 조문 인덱싱, decompose → retrieve → graph_expand → rerank → cite → answer 워크플로우, hit@k **0.8** / cite_match **0.8** / nonempty **1.0**, transformers+MPS SIGSEGV → GGUF 백엔드 swap 의사결정 |
-| 에이전트 검증 데이터셋 (KT 협업) | Agent QA / Eval · 데이터셋 큐레이션 | 에이전트 검증 셋 설계·생성·검증 자동화 |
+| 해양사고 위험 예측 시스템 | LightGBM · SHAP · FastAPI · Docker | OOF AUC **0.946** / PR-AUC **0.742**, 격자×시간 단위 위험 예측, 데이터 누설 발견·prior 피처로 교체, 분석→모델→서빙→대시보드 e2e 단독 구축 (AI융복합 과제) |
+| 해양 법령 도메인 RAG 파이프라인 | KR-SBERT · FAISS+BM25 · GraphRAG · LangGraph · EXAONE GGUF | 해수부·해경 12개 법령 394 조문 인덱싱, 6노드 워크플로우(decompose→retrieve→graph_expand→rerank→cite→answer), hit@k **0.8** / cite_match **0.8** (CDX 과제) |
+| 에이전트 검증 데이터셋 | Agent QA / Eval · 데이터셋 큐레이션 | KT 협업, 검증 셋 설계·생성·검증 자동화 |
 
 ## Activities
 
@@ -116,15 +116,12 @@
   <img alt="SQL" src="https://img.shields.io/badge/SQL-334155?style=flat-square">
   <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
   <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
+  <img alt="LightGBM" src="https://img.shields.io/badge/LightGBM-2C5F2D?style=flat-square">
   <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black">
   <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
-  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
-  <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white">
-  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
 </p>
 
 | 영역 | 다루는 범위 | 관련 작업 |
@@ -165,31 +162,31 @@
 
 ## Competition Work
 
-| 기간 | 공모전 | 결과 / 초점 | 저장소 |
+| 기간 | 공모전 | 주제 | 결과 |
 | --- | --- | --- | --- |
-| 2025.11~2025.11 | 제3회 국민대학교 AI빅데이터 분석 경진대회 | 산업 지표 lead-lag 예측, Top 5.2% | [Industrial_Lead_Lag_Forecasting](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) |
-| 2025.10~2025.11 | 운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회 | 위험 확률 예측, Top 7.8% | [Driver_Cognitive_Risk_Prediction](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) |
-| 2023.09~2023.10 | HD현대 AI Challenge | 선박 대기시간 예측, 2nd | [Ship_Waiting_Time_Prediction](https://github.com/Minsu5452/Ship_Waiting_Time_Prediction) |
-| 2023.09~2023.09 | 2023 스마트농업 AI 경진대회 | 수확량·에너지 사용량 예측 | [Smart_Farm_Yield_Energy_Prediction](https://github.com/Minsu5452/Smart_Farm_Yield_Energy_Prediction) |
-| 2023.08~2023.08 | 온라인 채널 제품 판매량 예측 AI 온라인 해커톤 | Top 1.6% | [LG_Online_Sales_Forecasting](https://github.com/Minsu5452/LG_Online_Sales_Forecasting) |
-| 2023.07~2023.08 | 2023 전력사용량 예측 AI 경진대회 | 건물별 전력사용량 예측, Top 8.7% | [Power_Consumption_Forecasting](https://github.com/Minsu5452/Power_Consumption_Forecasting) |
-| 2023.06~2023.07 | 법원 판결 예측 AI 경진대회 | 법률 NLP, 2nd | [Court_Judgment_Prediction](https://github.com/Minsu5452/Court_Judgment_Prediction) |
-| 2023.01~2023.02 | 2023년 지역 치안 안전 데이터 분석 공모전 | 기상 데이터 기반 교통사고 위험 예측 | [Traffic_Accident_Prediction](https://github.com/Minsu5452/Traffic_Accident_Prediction) |
-| 2022.12~2023.01 | 유전체 정보 품종 분류 AI 경진대회 | SNP 기반 품종 분류, 1st | [Genomic_Data_Breed_Classification](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) |
-| 2022.12~2022.12 | 감귤 착과량 예측 AI 경진대회 | 착과량 예측, Top 6.6% | [Citrus_Yield_Prediction](https://github.com/Minsu5452/Citrus_Yield_Prediction) |
-| 2022.06~2022.08 | 제7회 롯데멤버스 빅데이터 경진대회 | L.POINT 고객 행동 분석 | [Lotte_Members_Customer_Analytics](https://github.com/Minsu5452/Lotte_Members_Customer_Analytics) |
+| 2025.11 | [제3회 국민대학교 AI빅데이터 분석 경진대회](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) | 산업 지표 lead-lag 예측 | Top 5.2% |
+| 2025.10~11 | [운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) | 위험 확률 예측 | Top 7.8% |
+| 2023.09~10 | [HD현대 AI Challenge](https://github.com/Minsu5452/Ship_Waiting_Time_Prediction) | 선박 대기시간 예측 | 2nd |
+| 2023.09 | [2023 스마트농업 AI 경진대회](https://github.com/Minsu5452/Smart_Farm_Yield_Energy_Prediction) | 수확량·에너지 사용량 예측 | — |
+| 2023.08 | [온라인 채널 제품 판매량 예측 AI 온라인 해커톤](https://github.com/Minsu5452/LG_Online_Sales_Forecasting) | 판매량 시계열 예측 | Top 1.6% |
+| 2023.07~08 | [2023 전력사용량 예측 AI 경진대회](https://github.com/Minsu5452/Power_Consumption_Forecasting) | 건물별 전력사용량 예측 | Top 8.7% |
+| 2023.06~07 | [법원 판결 예측 AI 경진대회](https://github.com/Minsu5452/Court_Judgment_Prediction) | 법률 NLP, 판결 분류 | 2nd |
+| 2023.01~02 | [2023년 지역 치안 안전 데이터 분석 공모전](https://github.com/Minsu5452/Traffic_Accident_Prediction) | 기상 데이터 기반 교통사고 위험 예측 | — |
+| 2022.12~2023.01 | [유전체 정보 품종 분류 AI 경진대회](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) | SNP 기반 품종 분류 | 1st |
+| 2022.12 | [감귤 착과량 예측 AI 경진대회](https://github.com/Minsu5452/Citrus_Yield_Prediction) | 착과량 예측 | Top 6.6% |
+| 2022.06~08 | [제7회 롯데멤버스 빅데이터 경진대회](https://github.com/Minsu5452/Lotte_Members_Customer_Analytics) | L.POINT 고객 행동 분석 | — |
 
 ## Publication
 
-| 기간 | 학술대회 | 논문 | 저장소 |
-| --- | --- | --- | --- |
-| 2023.02~2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구 | [AI_Frenz_2023_Publication](https://github.com/Minsu5452/AI_Frenz_2023_Publication) |
+| 기간 | 학술대회 | 논문 |
+| --- | --- | --- |
+| 2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | [SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구](https://github.com/Minsu5452/AI_Frenz_2023_Publication) |
 
 ## Coursework
 
-| 기간 | 분류 | 작업 | 저장소 |
-| --- | --- | --- | --- |
-| 2023.11~2023.12 | Idea Competition | 제3회 소외계층을 위한 AI 활용 아이디어 공모전 | [Supporting_Marginalized_Communities](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
-| 2022.09~2022.12 | Deep Learning | 이미지 컬러화 모델 비교 프로젝트 | [DL_Team_Project](https://github.com/Minsu5452/DL_Team_Project) |
-| 2022.09~2022.12 | Text Mining | 국민대·정릉시장 리뷰 토픽 모델링 | [Restaurant_Topic_Modeling](https://github.com/Minsu5452/Restaurant_Topic_Modeling) |
-| 2022.03~2022.06 | Machine Learning | 머신러닝 수업 프로젝트, Kaggle `kml2022s` 2nd | [ML_Team_Project](https://github.com/Minsu5452/ML_Team_Project) |
+| 기간 | 분류 | 작업 |
+| --- | --- | --- |
+| 2023.11~12 | Idea Competition | [제3회 소외계층을 위한 AI 활용 아이디어 공모전](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
+| 2022.09~12 | Deep Learning | [이미지 컬러화 모델 비교 프로젝트](https://github.com/Minsu5452/DL_Team_Project) |
+| 2022.09~12 | Text Mining | [국민대·정릉시장 리뷰 토픽 모델링](https://github.com/Minsu5452/Restaurant_Topic_Modeling) |
+| 2022.03~06 | Machine Learning | [머신러닝 수업 프로젝트, Kaggle `kml2022s` 2nd](https://github.com/Minsu5452/ML_Team_Project) |
