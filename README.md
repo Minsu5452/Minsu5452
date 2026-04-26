@@ -1,88 +1,102 @@
-# 👋 강민수 (Minsu Kang)
+# 강민수
 
-데이터 분석부터 모델링·서빙까지 한 사이클을 직접 만져보는 걸 좋아하는 데이터 사이언티스트입니다.
-교통·해양·법률·해커톤 평가 도메인 중심으로, 분석·예측 모델을 **운영 가능한 웹 서비스 형태까지 끌고 가는** 데 흥미가 있습니다.
-최근에는 **LLM 평가 시스템**과 **한국어 RAG 파이프라인** 구현에 집중하고 있습니다.
+데이터 분석, 모델링, 서비스 구현까지 한 흐름으로 다루는 데이터 사이언티스트입니다.
+교통 안전, 해양 안전, 법률 NLP, LLM 평가 자동화, 한국어 RAG처럼 도메인 이해와 모델링이 함께 필요한 문제를 주로 다뤘습니다.
 
-## 🔗 Contact
+## 연락처
 
-<a href="mailto:daro980722@gmail.com"><img src="https://img.shields.io/badge/daro980722@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
-<a href="mailto:daro98@naver.com"><img src="https://img.shields.io/badge/daro98@naver.com-03C75A?style=flat-square&logo=Naver&logoColor=white"/></a>
-<a href="https://dacon.io/myprofile/457768/home"><img src="https://img.shields.io/badge/DACON%20Profile-2D72D2?style=flat-square&logo=googleanalytics&logoColor=white"/></a>
+- Email: daro980722@gmail.com / daro98@naver.com
+- GitHub: [github.com/Minsu5452](https://github.com/Minsu5452)
+- DACON: [dacon.io/myprofile/457768/home](https://dacon.io/myprofile/457768/home)
 
-## 🛠 Tech Stack
+## 기술 스택
 
-| 분류 | 도구 |
-| :--- | :--- |
-| **Languages** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> |
-| **ML / DL** | <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> LightGBM · XGBoost · CatBoost · SHAP |
-| **LLM / RAG** | LangChain · LangGraph · Hugging Face · FAISS |
-| **Backend** | <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> (eGovFrame) |
-| **Frontend** | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> Vite · Mantine |
-| **Data / Viz** | Pandas · NumPy · Streamlit · Matplotlib |
-| **Infra** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=Nginx&logoColor=white"/> |
+| 구분 | 기술 |
+| --- | --- |
+| 언어 | Python, SQL |
+| ML / DL | PyTorch, scikit-learn, LightGBM, XGBoost, CatBoost, SHAP |
+| LLM / RAG | LangChain, LangGraph, Hugging Face, FAISS |
+| 백엔드 | FastAPI, Spring Boot, eGovFrame |
+| 프론트엔드 | React, Vite, Mantine |
+| 데이터 / 시각화 | Pandas, NumPy, Streamlit, Matplotlib |
+| 인프라 | Docker, Redis, Nginx |
 
-## 💼 Work Experience
+## 경력
 
-| 기간 | 소속 | 부서 | 직책 |
-| :---: | :---: | :---: | :---: |
-| 2025.12.29 ~ 현재 | 데이콘 | Data Science팀 | 매니저 (대회 기획 및 운영) |
-| 2025.06.02 ~ 2025.11.30 | 슈어소프트테크 | AX응용기술팀 | AI 개발자 (인턴) |
+| 기간 | 소속 | 역할 | 주요 업무 |
+| --- | --- | --- | --- |
+| 2025.12 - 현재 | 데이콘 Data Science팀 | 매니저 | 대회 기획 및 운영, LLM 평가 워크플로우 |
+| 2025.06 - 2025.11 | 슈어소프트테크 AX응용기술팀 | AI 개발자 인턴 | 해양 위험 예측, 한국어 RAG, 에이전트 검증 데이터 |
 
-## 💻 Featured Projects
+## 주요 프로젝트
 
-| 카테고리 | 프로젝트 | 키워드 | Repo |
-| :--- | :--- | :--- | :---: |
-| **Full-stack Web** | 운수종사자 교통사고 위험 예측 웹 플랫폼 (NIA / 한국교통안전공단) — *단독 개발* | React + Spring Boot eGov + FastAPI + Windows 포터블 배포 | [Driver_Risk_Web_Platform](https://github.com/Minsu5452/Driver_Risk_Web_Platform) |
-| **LLM Service** | LLM 평가시스템 (LLM Council 2단계 채점) | FastAPI + Redis Lua queue + asyncio worker + HMAC | [LLM_Evaluation_System](https://github.com/Minsu5452/LLM_Evaluation_System) |
-| **LLM / RAG** | 해양 도메인 RAG 파이프라인 (CDX) | KR-SBERT + FAISS + GraphRAG + LangGraph + EXAONE GGUF | [Marine_Domain_RAG](https://github.com/Minsu5452/Marine_Domain_RAG) |
-| **ML / Modeling** | 격자×시간 해양사고 위험 예측 (AI융복합) | LightGBM + SHAP + FastAPI + Streamlit pydeck | [Marine_Accident_Risk_Prediction](https://github.com/Minsu5452/Marine_Accident_Risk_Prediction) |
-| **ML / Modeling** | 운수종사자 인지 특성 데이터 활용 사고 위험 예측 | StratifiedGroupKFold + LightGBM/CatBoost ensemble | [Driver_Cognitive_Risk_Prediction](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) |
-| **ML / Modeling** | Lead-Lag 산업 지수 예측 | Pearson + DTW + PageRank + LightGBM | [Industrial_Lead_Lag_Forecasting](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) |
+| 프로젝트 | 내용 | 기술 | 저장소 |
+| --- | --- | --- | --- |
+| LLM 평가 시스템 | 해커톤 제출물을 자동 평가하는 FastAPI 기반 평가 서버. HMAC 인증, Redis 큐, asyncio 워커, 다중 LLM 평가 흐름을 구현했습니다. | FastAPI, Redis, Docker, OpenAI/Gemini/Anthropic API | [LLM_Evaluation_System](https://github.com/Minsu5452/LLM_Evaluation_System) |
+| 운수종사자 사고 위험 예측 웹 플랫폼 | 운수종사자 검사 데이터와 사고 이력 기반 위험 예측을 웹 대시보드, 관리자 화면, AI 엔진, 배포 스크립트까지 연결했습니다. | React, Spring Boot/eGovFrame, FastAPI, SHAP, Nginx | [Driver_Risk_Web_Platform](https://github.com/Minsu5452/Driver_Risk_Web_Platform) |
+| 해양 도메인 RAG | 공개 법령 API를 수집·파싱하고 FAISS, GraphRAG, LangGraph 기반 질의응답 흐름으로 구성한 데모입니다. | LangGraph, FAISS, sentence-transformers, NetworkX | [Marine_Domain_RAG](https://github.com/Minsu5452/Marine_Domain_RAG) |
+| 해양사고 위험 예측 | 격자×시간 단위 해양사고 위험 예측 파이프라인을 만들고 SHAP 분석, FastAPI, Streamlit 대시보드로 연결했습니다. | LightGBM, FastAPI, Streamlit, Docker | [Marine_Accident_Risk_Prediction](https://github.com/Minsu5452/Marine_Accident_Risk_Prediction) |
+| 운수종사자 인지 특성 위험 예측 | 인지검사 시퀀스와 과거 이력을 활용해 사고 위험 확률을 예측한 경진대회 솔루션입니다. | LightGBM, CatBoost, StratifiedGroupKFold | [Driver_Cognitive_Risk_Prediction](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) |
+| 산업 지표 Lead-Lag 예측 | 산업 품목별 월간 시계열에서 선행·후행 관계를 찾고 follower 값을 예측했습니다. | LightGBM, DTW, PageRank, Louvain | [Industrial_Lead_Lag_Forecasting](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) |
 
-## 🏆 Awards
+## 수상
 
-| 수상일자 | 공모전 | 결과 | Repo |
-| :---: | :--- | :---: | :---: |
-| 2023.02.14 | 유전체 정보 품종 분류 AI 경진대회 (DACON) | 🥇 **1등 / 716팀** | [Genomic_Data_Breed_Classification](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) |
-| 2023.07.26 | 법원 판결 예측 AI 경진대회 (DACON) | 🥈 **2등 / 506팀** | [Court_Judgment_Prediction](https://github.com/Minsu5452/Court_Judgment_Prediction) |
+| 일자 | 대회 | 결과 | 저장소 |
+| --- | --- | --- | --- |
+| 2023.02 | 유전체 정보 품종 분류 AI 경진대회 | 1st | [Genomic_Data_Breed_Classification](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) |
+| 2023.07 | 법원 판결 예측 AI 경진대회 | 2nd | [Court_Judgment_Prediction](https://github.com/Minsu5452/Court_Judgment_Prediction) |
 
-## 📔 Publications
+## 경진대회 주요 기록
 
-| 기간 | 학술대회 | 논문 |
-| :---: | :--- | :--- |
-| 2023.02 | 에이아이프렌즈학회 (제2차 실용 AI 학술대회) | SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구 |
+| 기간 | 대회 | 결과 |
+| --- | --- | --- |
+| 2025.11 | 제3회 국민대학교 AI빅데이터 분석 경진대회 | Top 5.2% |
+| 2025.10 | 운수종사자 인지 특성 활용 교통사고 위험 예측 | Top 7.8% |
+| 2023.09 - 2023.11 | HD현대 AI Challenge | 예선 2nd, 본선 6th |
+| 2023.08 - 2023.09 | 온라인 채널 제품 판매량 예측 해커톤 | 예선 Top 1.6%, 본선 진출 |
+| 2023.07 - 2023.08 | 전력사용량 예측 AI 경진대회 | Top 8.7% |
+| 2022.12 | 감귤 착과량 예측 AI 경진대회 | Top 6.6% |
 
-## 🏅 Competitions (요약)
+## 프로젝트 아카이브
 
-| 기간 | 공모전 | 결과 |
-| :---: | :--- | :---: |
-| 2025.11 | 제3회 국민대학교 AI빅데이터 분석 경진대회 | 50등 / 960팀 |
-| 2025.10 | 운수종사자 인지 특성 활용 교통사고 위험 예측 (NIA / 한국교통안전공단) | 34등 / 437팀 |
-| 2023.09 | HD현대 AI Challenge | 예선 2등 / 본선 6등 |
-| 2023.08 | 온라인 채널 제품 판매량 예측 (LG, DACON) | 예선 12등 / 본선 24등 |
-| 2023.07 | 전력사용량 예측 AI 경진대회 (한국에너지공단) | 107등 / 1233팀 |
-| 2022.12 | 감귤 착과량 예측 AI 경진대회 (DACON) | 17등 / 257팀 |
+| 연도 | 분야 | 프로젝트 |
+| --- | --- | --- |
+| 2026 | LLM 평가 | [LLM_Evaluation_System](https://github.com/Minsu5452/LLM_Evaluation_System) |
+| 2026 | 풀스택 ML 서비스 | [Driver_Risk_Web_Platform](https://github.com/Minsu5452/Driver_Risk_Web_Platform) |
+| 2025 | 시계열 예측 | [Industrial_Lead_Lag_Forecasting](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) |
+| 2025 | 교통 안전 ML | [Driver_Cognitive_Risk_Prediction](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) |
+| 2025 | 해양 안전 ML 서비스 | [Marine_Accident_Risk_Prediction](https://github.com/Minsu5452/Marine_Accident_Risk_Prediction) |
+| 2025 | 해양 법령 RAG | [Marine_Domain_RAG](https://github.com/Minsu5452/Marine_Domain_RAG) |
+| 2023 | 선박 대기시간 예측 | [Ship_Waiting_Time_Prediction](https://github.com/Minsu5452/Ship_Waiting_Time_Prediction) |
+| 2023 | 온라인 판매량 예측 | [LG_Online_Sales_Forecasting](https://github.com/Minsu5452/LG_Online_Sales_Forecasting) |
+| 2023 | 전력사용량 예측 | [Power_Consumption_Forecasting](https://github.com/Minsu5452/Power_Consumption_Forecasting) |
+| 2023 | 스마트팜 회귀 예측 | [Smart_Farm_Yield_Energy_Prediction](https://github.com/Minsu5452/Smart_Farm_Yield_Energy_Prediction) |
+| 2023 | 법률 NLP | [Court_Judgment_Prediction](https://github.com/Minsu5452/Court_Judgment_Prediction) |
+| 2023 | 교통사고 위험 분석 | [Traffic_Accident_Prediction](https://github.com/Minsu5452/Traffic_Accident_Prediction) |
+| 2023 | 학술대회 논문 | [AI_Frenz_2023_Publication](https://github.com/Minsu5452/AI_Frenz_2023_Publication) |
+| 2023 | AI 아이디어 프로토타입 | [Supporting_Marginalized_Communities](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
+| 2023 | 멘토링 활동 | [Kookmin_Mentoring_14th](https://github.com/Minsu5452/Kookmin_Mentoring_14th) |
+| 2022 | 유전체 분류 | [Genomic_Data_Breed_Classification](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) |
+| 2022 | 감귤 착과량 예측 | [Citrus_Yield_Prediction](https://github.com/Minsu5452/Citrus_Yield_Prediction) |
+| 2022 | 고객 데이터 분석 | [Lotte_Members_Customer_Analytics](https://github.com/Minsu5452/Lotte_Members_Customer_Analytics) |
+| 2022 | 머신러닝 수업 프로젝트 | [ML_Team_Project](https://github.com/Minsu5452/ML_Team_Project) |
+| 2022 | 딥러닝 수업 프로젝트 | [DL_Team_Project](https://github.com/Minsu5452/DL_Team_Project) |
+| 2022 | 텍스트 마이닝 | [Restaurant_Topic_Modeling](https://github.com/Minsu5452/Restaurant_Topic_Modeling) |
 
-> 전체 12건 (1등 1회 · 2등 1회 · 본선 진출 2회 외 다수). 자세한 항목은 각 레포 README 참조.
+## 논문
 
-## 🎓 Education
+| 일자 | 학술대회 | 제목 |
+| --- | --- | --- |
+| 2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구 |
 
-| 기간 | 학교 | 전공 | 학위 |
-| :---: | :---: | :---: | :---: |
-| 2018.03 ~ 2024.08 | 국민대학교 | AI빅데이터융합경영학과 (심화전공) | 학사 |
+## 학력
 
-## 📚 Activities
+| 기간 | 학교 | 학위 |
+| --- | --- | --- |
+| 2018.03 - 2024.08 | 국민대학교 | AI빅데이터융합경영학과 학사 |
 
-- **2023.10 ~ 2023.11** 국민대 경영대학 — 연결고리 14기 멘토링 (멘티)
-- **2023.09 ~ 2024.03** BDA — 7기 데이터 분석 고급반 (수료)
-- **2023.07 ~ 2023.09** LG AI Research — LG Aimers 3기 (교육생)
-- **2022.03 ~ 2023.12** D&A — 빅데이터 분석 학회 (ML / DL 세션)
+## 자격
 
-## 📜 Certifications · Languages
-
-| 항목 | 발급 / 응시 |
-| :--- | :--- |
-| 제60회 SQL 개발자 (SQLD) | 한국데이터산업진흥원 · 2026.03 |
-| 제12회 빅데이터분석기사 (필기) | 한국데이터산업진흥원 · 2026.04 |
-| TOEIC Speaking — Intermediate Mid 3 (Speaking 130) | 2025.02 |
+- SQLD, 한국데이터산업진흥원, 2026.03
+- 빅데이터분석기사 필기, 한국데이터산업진흥원, 2026.04
+- TOEIC Speaking Intermediate Mid 3, 2025.02
