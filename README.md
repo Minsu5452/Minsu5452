@@ -40,7 +40,7 @@
 | 기간 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- | --- |
 | 2026.02~2026.04 | LLM 평가 시스템 개발 | FastAPI · Redis · asyncio · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | LLM Council 2단계 채점 흐름 단독 설계·구현, HMAC 콜백·사용자 보호 정책 수립 |
-| 2025.12~2026.03 | 운수종사자 교통사고 위험 예측 모델·관리 웹 개발 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 경진대회 코드 기반 ML 모델·외부망 분리 포터블 배포까지 단독 개발 |
+| 2025.12~2026.03 | 운수종사자 교통사고 위험 예측 모델·관리 웹 개발 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 경진대회 코드 기반 ML 모델·외부망 분리 환경 현장 배포까지 단독 진행 |
 
 ### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
 > `2025.06~2025.11` (6개월) · 해양사고 위험 예측 시스템 개발 / 해양 법령 도메인 RAG 시스템 개발 / KT 에이전트 검증 데이터셋 구축
