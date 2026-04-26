@@ -9,9 +9,8 @@
 <p>
   <img alt="Data Analysis" src="https://img.shields.io/badge/Data%20Analysis-334155?style=flat-square">
   <img alt="Predictive Modeling" src="https://img.shields.io/badge/Predictive%20Modeling-2563EB?style=flat-square">
-  <img alt="Domain AI" src="https://img.shields.io/badge/Domain%20AI-0F766E?style=flat-square">
+  <img alt="LLM / RAG" src="https://img.shields.io/badge/LLM%20%2F%20RAG-0F766E?style=flat-square">
   <img alt="AI Service" src="https://img.shields.io/badge/AI%20Service-7C3AED?style=flat-square">
-  <img alt="Research" src="https://img.shields.io/badge/Research-9333EA?style=flat-square">
 </p>
 
 <p>
@@ -36,21 +35,21 @@
 ## Experience
 
 ### 데이콘 — Data Science팀 · 대회 매니저
-> `2025.12~현재` (5개월) · 대회·해커톤 기획·운영 / LLM 평가 시스템 / 운수종사자 사고 위험 예측 웹 플랫폼 개발
+> `2025.12~현재` (5개월) · 대회·해커톤 기획·운영 / LLM 평가 시스템 개발 / 운수종사자 사고 위험 예측 웹 플랫폼 개발
 
 | 기간 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- | --- |
-| 2026.02~2026.04 | LLM 평가 시스템 | FastAPI · Redis · asyncio · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | LLM Council 2단계 채점 흐름 단독 설계·구현, HMAC 서명 콜백·사용자 보호 정책 수립 |
+| 2026.02~2026.04 | LLM 평가 시스템 개발 | FastAPI · Redis · asyncio · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | LLM Council 2단계 채점 흐름 단독 설계·구현, HMAC 콜백·사용자 보호 정책 수립 |
 | 2025.12~2026.03 | 운수종사자 사고 위험 예측 웹 플랫폼 개발 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 프론트·백엔드·AI 엔진·외부망 분리 포터블 배포까지 단독 개발 |
 
 ### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
-> `2025.06~2025.11` (6개월) · 해양사고 위험 예측 / 해양 법령 도메인 RAG / 에이전트 검증
+> `2025.06~2025.11` (6개월) · 해양사고 위험 예측 시스템 개발 / 해양 법령 도메인 RAG 시스템 개발 / KT 에이전트 검증 데이터셋 구축
 
 | 기간 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- | --- |
-| 2025.06~2025.11 | 해양사고 위험 예측 시스템 | LightGBM · SHAP · FastAPI · Docker | OOF AUC **0.946** / PR-AUC **0.742**, 격자×시간 단위 e2e 구축, 데이터 누설 발견·prior 피처로 교체 (AI융복합 과제) |
-| 2025.06~2025.11 | 해양 법령 도메인 RAG 파이프라인 | KR-SBERT · FAISS+BM25 · GraphRAG · LangGraph · EXAONE GGUF | 해수부·해경 12개 법령 394 조문 인덱싱, 6노드 워크플로우, hit@k **0.8** / cite_match **0.8** (CDX 과제) |
-| 2025.06~2025.11 | 에이전트 검증 데이터셋 | Agent QA / Eval · 데이터셋 큐레이션 | KT 협업, 검증 셋 설계·생성·검증 자동화 |
+| 2025.06~2025.11 | 해양사고 위험 예측 시스템 개발 | LightGBM · SHAP · FastAPI · Docker | OOF AUC **0.946** / PR-AUC **0.742**, 격자×시간 단위 e2e 구축 (AI융복합 과제) |
+| 2025.06~2025.11 | 해양 법령 도메인 RAG 시스템 개발 | KR-SBERT · FAISS+BM25 · GraphRAG · LangGraph · EXAONE GGUF | 해수부·해경 12개 법령 394 조문 인덱싱, 6노드 워크플로우, hit@k **0.8** / cite_match **0.8** (CDX 과제) |
+| 2025.06~2025.11 | KT 에이전트 검증 데이터셋 구축 | Agent QA / Eval · 데이터셋 큐레이션 | KT 협업, 검증 셋 설계·생성·검증 자동화 |
 
 ## Activities
 
@@ -82,13 +81,13 @@
   <tr>
     <td align="center" width="50%">
       <h3>🥇 1st Place</h3>
-      <strong>유전체 정보 품종 분류 AI 경진대회</strong><br>
+      <strong><a href="https://github.com/Minsu5452/Genomic_Data_Breed_Classification">유전체 정보 품종 분류 AI 경진대회</a></strong><br>
       <sub>충남대 바이오AI / 데이콘</sub><br>
       <sub>SNP 기반 품종 분류</sub>
     </td>
     <td align="center" width="50%">
       <h3>🥈 2nd Place</h3>
-      <strong>법원 판결 예측 AI 경진대회</strong><br>
+      <strong><a href="https://github.com/Minsu5452/Court_Judgment_Prediction">법원 판결 예측 AI 경진대회</a></strong><br>
       <sub>데이콘</sub><br>
       <sub>법률 판결문 분류 NLP</sub>
     </td>
@@ -96,13 +95,13 @@
   <tr>
     <td align="center">
       <h3>🥈 2nd Place</h3>
-      <strong>HD현대 AI Challenge</strong><br>
+      <strong><a href="https://github.com/Minsu5452/Ship_Waiting_Time_Prediction">HD현대 AI Challenge</a></strong><br>
       <sub>HD한국조선해양</sub><br>
       <sub>선박 대기시간 예측</sub>
     </td>
     <td align="center">
       <h3>🎯 Top 1.6%</h3>
-      <strong>온라인 채널 제품 판매량 예측 AI 해커톤</strong><br>
+      <strong><a href="https://github.com/Minsu5452/LG_Online_Sales_Forecasting">온라인 채널 제품 판매량 예측 AI 해커톤</a></strong><br>
       <sub>LG AI Research</sub><br>
       <sub>판매량 시계열 예측</sub>
     </td>
@@ -141,19 +140,19 @@
       <sub>2025.12~2026.03 · React · Spring Boot · FastAPI · Nginx</sub>
     </td>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/Marine_Accident_Risk_Prediction">해양사고 위험 예측 시스템</a></strong><br>
+      <strong><a href="https://github.com/Minsu5452/Marine_Accident_Risk_Prediction">해양사고 위험 예측 시스템 개발</a></strong><br>
       사고·격자·기상 데이터를 결합해 격자×시간 단위로 해양사고 위험도를 예측하고 API와 대시보드로 확인하는 데모입니다. OOF AUC 0.946 / PR-AUC 0.742.<br>
       <sub>2025.06~2025.11 · LightGBM · FastAPI · Streamlit</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/Marine_Domain_RAG">해양 법령 도메인 RAG 파이프라인</a></strong><br>
+      <strong><a href="https://github.com/Minsu5452/Marine_Domain_RAG">해양 법령 도메인 RAG 시스템 개발</a></strong><br>
       공개 법령 12건·394 조문을 KR-SBERT + FAISS/BM25 hybrid 로 검색하고, GraphRAG·LangGraph 6노드로 답변 흐름을 구성한 RAG 프로젝트입니다. hit@k 0.8 / cite_match 0.8.<br>
       <sub>2025.06~2025.11 · RAG · GraphRAG · LangGraph · EXAONE</sub>
     </td>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/LLM_Evaluation_System">LLM 평가 시스템</a></strong><br>
+      <strong><a href="https://github.com/Minsu5452/LLM_Evaluation_System">LLM 평가 시스템 개발</a></strong><br>
       해커톤 제출물을 LLM Council 2단계로 자동 채점하고, 작업 큐와 HMAC 서명 콜백으로 결과를 반환하는 비동기 평가 서버입니다.<br>
       <sub>2026.02~2026.04 · FastAPI · Redis · HMAC</sub>
     </td>
