@@ -3,7 +3,7 @@
 <div align="center">
 
 데이터를 분석하고, 모델로 검증하고, 서비스로 만들어내는 한 사이클을 직접 다루는 걸 좋아합니다.<br>
-교통·해양·법률·고객·전력·농업·유전체 등 도메인을 가리지 않고 분석·예측 모델을 운영 가능한 형태까지 끌고 가는 데 흥미가 있습니다.<br>
+교통·해양·법률 등 여러 도메인의 분석·예측 모델을 운영 가능한 형태까지 끌고 가는 데 흥미가 있습니다.<br>
 최근에는 대회 설계와 B2B 협업, LLM 평가 시스템·한국어 RAG 파이프라인 구현을 함께 다루고 있습니다.
 
 <p>
@@ -25,27 +25,29 @@
 
 ## Profile
 
-|  |  |
+| Education | Keywords |
 | --- | --- |
-| Education | 국민대학교 AI빅데이터융합경영학과 학사 |
-| Keywords | 데이터 분석, 예측 모델링, NLP/RAG, 위험 예측, 서비스 구현, 대회 운영 |
+| 국민대학교 AI빅데이터융합경영학과 학사 | 데이터 분석, 예측 모델링, NLP/RAG, 위험 예측, 서비스 구현, 대회 운영 |
 
 ## Experience
 
-| Period | Length | Company | Team | Role | Focus |
-| --- | --- | --- | --- | --- | --- |
-| 2025.12~현재 | 약 5개월 | 데이콘 | Data Science팀 | 대회 매니저 | 대회 기획·운영, 평가 자동화, AI 서비스형 프로젝트 |
-| 2025.06~2025.11 | 6개월 | 슈어소프트테크 | AX응용기술팀 | AI 개발자 (인턴) | 해양사고 위험 예측, 해양 법령 RAG, 에이전트 검증 데이터 |
+### 데이콘 · Data Science팀 · 대회 매니저
+`2025.12~현재 · 약 5개월`
 
-**데이콘 · Data Science팀 · 대회 매니저** (2025.12~현재)
-- 대회 기획·운영 및 채점 자동화 파이프라인 구축, B2B 협업 진행
-- LLM 평가 서버 구축 — FastAPI · Redis 큐 · HMAC 콜백 기반 비동기 채점
-- 운수종사자 사고 위험 예측 풀스택 웹 플랫폼 단독 개발 (NIA / 한국교통안전공단 사업 연계, React · Spring Boot · FastAPI · Nginx)
+| Project | Stack | Outcome |
+| --- | --- | --- |
+| 대회 기획·운영 | 채점 자동화 파이프라인 | B2B 협업 진행 |
+| LLM 평가 서버 | FastAPI · Redis · HMAC | 비동기 채점 (콜백 기반) |
+| 운수종사자 위험 예측 플랫폼 | React · Spring Boot · FastAPI · Nginx | NIA / 한국교통안전공단 사업 단독 개발 |
 
-**슈어소프트테크 · AX응용기술팀 · AI 개발자 (인턴)** (2025.06~2025.11)
-- 격자×시간 해양사고 위험 예측 모델 (LightGBM 5-fold, OOF AUC 0.946 / PR-AUC 0.742)
-- 해양 법령 RAG 파이프라인 — KR-SBERT 임베딩 + FAISS·BM25 hybrid + GraphRAG, LangGraph 6노드 워크플로우
-- KT 에이전트 검증 데이터셋 생성 및 검증
+### 슈어소프트테크 · AX응용기술팀 · AI 개발자 (인턴)
+`2025.06~2025.11 · 6개월`
+
+| Project | Stack | Outcome |
+| --- | --- | --- |
+| 격자×시간 해양사고 위험 예측 | LightGBM 5-fold | OOF AUC **0.946** / PR-AUC **0.742** |
+| 해양 법령 RAG 파이프라인 | KR-SBERT · FAISS+BM25 · GraphRAG · LangGraph | hit@k **0.8** / cite_match **0.8** (6노드 워크플로우) |
+| KT 에이전트 검증 데이터셋 | 데이터 가공·검증 | 생성 및 검증 |
 
 ## Featured Awards
 
@@ -169,15 +171,25 @@
 | --- | --- | --- | --- |
 | 2023.02~2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구 | [AI_Frenz_2023_Publication](https://github.com/Minsu5452/AI_Frenz_2023_Publication) |
 
-## Coursework & Activities
+## Coursework
 
 | Period | Category | Work | Repository |
 | --- | --- | --- | --- |
 | 2023.11~2023.12 | Idea Competition | 제3회 소외계층을 위한 AI 활용 아이디어 공모전 | [Supporting_Marginalized_Communities](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
-| 2023.10~2023.11 | Mentoring | 국민대학교 연결고리 14기 현업 동문 진로 멘토링 | [Kookmin_Mentoring_14th](https://github.com/Minsu5452/Kookmin_Mentoring_14th) |
 | 2022.09~2022.12 | Deep Learning | 이미지 컬러화 모델 비교 프로젝트 | [DL_Team_Project](https://github.com/Minsu5452/DL_Team_Project) |
 | 2022.09~2022.12 | Text Mining | 국민대·정릉시장 리뷰 토픽 모델링 | [Restaurant_Topic_Modeling](https://github.com/Minsu5452/Restaurant_Topic_Modeling) |
 | 2022.03~2022.06 | Machine Learning | 머신러닝 수업 프로젝트, Kaggle `kml2022s` 2nd | [ML_Team_Project](https://github.com/Minsu5452/ML_Team_Project) |
+
+## Activities
+
+| Period | Organization | Program | Role |
+| --- | --- | --- | --- |
+| 2023.10~2023.11 | 국민대학교 경영대학 | 연결고리 14기 (현업 동문 진로 멘토링) | 멘티 |
+| 2023.09~2024.03 | BDA (대학생 연합 빅데이터 학회) | 7기 데이터 분석 고급반 | 학회원 (수료) |
+| 2023.07~2023.09 | LG AI Research | LG Aimers 3기 (LG 청년 AI 인재 양성) | 교육생 |
+| 2023.03~2023.12 | D&A (국민대학교 빅데이터 분석 학회) | DL 세션 | 학회원 |
+| 2022.03~2022.12 | D&A (국민대학교 빅데이터 분석 학회) | ML 세션 | 학회원 |
+| 2021.12~2022.01 | D&A (국민대학교 빅데이터 분석 학회) | Python 기초 스터디 | 학회원 |
 
 ## Contact
 
