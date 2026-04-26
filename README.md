@@ -14,8 +14,13 @@
 </p>
 
 <p>
+  <a href="https://minsu5452.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-minsu5452.github.io-2563EB?style=for-the-badge&logoColor=white"></a>
+</p>
+
+<p>
   <a href="mailto:daro980722@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-daro980722%40gmail.com-334155?style=flat-square"></a>
   <a href="https://dacon.io/myprofile/457768/home"><img alt="DACON" src="https://img.shields.io/badge/DACON-Profile-0052CC?style=flat-square"></a>
+  <a href="https://github.com/Minsu5452"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Minsu5452-181717?style=flat-square&logo=github"></a>
 </p>
 
 </div>
