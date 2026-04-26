@@ -40,17 +40,17 @@
 
 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- |
-| LLM 평가시스템 개발 (LLM Council 2단계 채점) | FastAPI · Redis(List/Hash/Sorted Set + Lua) · asyncio worker · HMAC-SHA256 · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | 다중 LLM Council 2단계 채점(1차 독립 평가 → 2차 종합 판단) 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 제출 횟수 보호 정책 수립, JSON 로깅·Prometheus metric·dashboard endpoint 까지 운영 가시성 확보 |
-| 운수종사자 교통사고 위험 예측 웹 플랫폼 (행정안전부 → NIA → 한국교통안전공단 → 데이콘 사업) | React(Vite, Mantine) · Spring Boot(eGovFrame) · FastAPI AI Engine · LightGBM/XGBoost/CatBoost ensemble · SHAP · Nginx · Windows 포터블 배포 | 프론트·백엔드·AI 엔진·외부망 분리 환경 포터블 배포까지 단독 개발 (PL 협업), A/B 검사 분리 tree ensemble + 시퀀스 통합 모델 + SHAP 개별 진단 리포트 |
+| LLM 평가 시스템 — Council 2단계 채점 | FastAPI · Redis(List/Hash/Sorted Set + Lua) · asyncio worker · HMAC-SHA256 · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | 다중 LLM Council 2단계 채점(1차 독립 평가 → 2차 종합 판단) 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 제출 횟수 보호 정책 수립, JSON 로깅·Prometheus metric·dashboard endpoint 까지 운영 가시성 확보 |
+| 운수종사자 사고 위험 예측 웹 플랫폼 (행안부·NIA·한국교통안전공단 위탁사업) | React(Vite, Mantine) · Spring Boot(eGovFrame) · FastAPI AI Engine · LightGBM/XGBoost/CatBoost ensemble · SHAP · Nginx · Windows 포터블 배포 | 프론트·백엔드·AI 엔진·외부망 분리 환경 포터블 배포까지 단독 개발 (PL 협업), A/B 검사 분리 tree ensemble + 시퀀스 통합 모델 + SHAP 개별 진단 리포트 |
 
 ### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
-> `2025.06~2025.11` · 6개월 — 해양사고 위험 예측, 해양 도메인 RAG, 에이전트 검증 데이터
+> `2025.06~2025.11` · 6개월 — 해양사고 위험 예측, 해양 법령 도메인 RAG, 에이전트 검증 데이터
 
 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- |
-| 격자×시간 해양사고 위험 예측 시스템 (AI융복합) | LightGBM 5-fold CV · SHAP · FastAPI · Streamlit + pydeck · Docker · 해수부 GIS / level-4 격자 / NMPNT 해양기상 API | OOF AUC **0.946** / PR-AUC **0.742**, 0.025° 격자×시간 단위 위험 예측, 데이터 누설(positive에만 채워지는 ship_use_stat) 발견·prior 피처로 교체, 분석 → 모델 → 서빙 → 격자 대시보드 e2e 단독 구축 |
-| 해양 도메인 RAG 파이프라인 (CDX) | KR-SBERT · FAISS + BM25 hybrid (0.6/0.4) · GraphRAG (1,221 nodes / 91,432 edges) · LangGraph 6-node workflow · EXAONE-3.5-2.4B GGUF Q4_K_M + llama-cpp-python | 해수부·해경 12개 법령 394 조문 인덱싱, decompose → retrieve → graph_expand → rerank → cite → answer 워크플로우, hit@k **0.8** / cite_match **0.8** / nonempty **1.0**, transformers+MPS SIGSEGV → GGUF 백엔드 swap 의사결정 |
-| KT 에이전트 검증 데이터셋 생성 및 검증 | Agent QA / Eval · 데이터셋 큐레이션 | 에이전트 검증 셋 설계·생성·검증 자동화 |
+| 해양사고 위험 예측 시스템 — 격자×시간 단위 (AI융복합) | LightGBM 5-fold CV · SHAP · FastAPI · Streamlit + pydeck · Docker · 해수부 GIS / level-4 격자 / NMPNT 해양기상 API | OOF AUC **0.946** / PR-AUC **0.742**, 0.025° 격자×시간 단위 위험 예측, 데이터 누설(positive에만 채워지는 ship_use_stat) 발견·prior 피처로 교체, 분석 → 모델 → 서빙 → 격자 대시보드 e2e 단독 구축 |
+| 해양 법령 도메인 RAG 파이프라인 (CDX) | KR-SBERT · FAISS + BM25 hybrid (0.6/0.4) · GraphRAG (1,221 nodes / 91,432 edges) · LangGraph 6-node workflow · EXAONE-3.5-2.4B GGUF Q4_K_M + llama-cpp-python | 해수부·해경 12개 법령 394 조문 인덱싱, decompose → retrieve → graph_expand → rerank → cite → answer 워크플로우, hit@k **0.8** / cite_match **0.8** / nonempty **1.0**, transformers+MPS SIGSEGV → GGUF 백엔드 swap 의사결정 |
+| 에이전트 검증 데이터셋 (KT 협업) | Agent QA / Eval · 데이터셋 큐레이션 | 에이전트 검증 셋 설계·생성·검증 자동화 |
 
 ## Activities
 
