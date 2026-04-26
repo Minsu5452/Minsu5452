@@ -25,9 +25,9 @@
 
 ## Education
 
-| School | Department | Track | Degree | Period |
-| --- | --- | --- | --- | --- |
-| 국민대학교 | AI빅데이터융합경영학과 | 심화전공 | 학사 | 2018.03 ~ 2024.08 |
+| 학교 | 학과 | 트랙 | 학위 | 기간 | 비고 |
+| --- | --- | --- | --- | --- | --- |
+| 국민대학교 | AI빅데이터융합경영학과 | 심화전공 | 학사 | 2018.03 ~ 2024.08 | 졸업 |
 
 ## Keywords
 
@@ -38,15 +38,15 @@
 ### 데이콘 — Data Science팀 · 대회 매니저
 > `2025.12~현재` · 약 5개월 — 대회 기획·운영, 채점 자동화, B2B 협업
 
-| Project | Stack | Outcome |
+| 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- |
-| LLM 평가 서버 | FastAPI · Redis · HMAC | 비동기 채점 (콜백 기반) |
-| 운수종사자 위험 예측 플랫폼 | React · Spring Boot · FastAPI · Nginx | 개발·배포 단독 담당 (PL 협업, NIA / 한국교통안전공단 사업) |
+| 해커톤 제출물 LLM 채점 시스템 | FastAPI · Redis · asyncio · HMAC · Multi-LLM(Gemini/OpenAI/Anthropic) | 다중 LLM Council 2단계 채점 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 제출 횟수 보호 정책 수립 |
+| 운수종사자 사고 위험 예측 웹 플랫폼 | React · Spring Boot · FastAPI · Nginx | 프론트·백엔드·AI 엔진·배포까지 단독 개발 (PL 협업, NIA / 한국교통안전공단 사업) |
 
 ### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
 > `2025.06~2025.11` · 6개월 — 해양사고 위험 예측, 해양 법령 RAG, 에이전트 검증 데이터
 
-| Project | Stack | Outcome |
+| 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- |
 | 격자×시간 해양사고 위험 예측 | LightGBM 5-fold | OOF AUC **0.946** / PR-AUC **0.742** |
 | 해양 법령 RAG 파이프라인 | KR-SBERT · FAISS+BM25 · GraphRAG · LangGraph | hit@k **0.8** / cite_match **0.8** (6노드 워크플로우) |
@@ -54,7 +54,7 @@
 
 ## Activities
 
-| Period | Organization | Program | Role |
+| 기간 | 기관 | 프로그램 | 역할 |
 | --- | --- | --- | --- |
 | 2023.10~2023.11 | 국민대학교 경영대학 | 연결고리 14기 (현업 동문 진로 멘토링) | 멘티 |
 | 2023.09~2024.03 | BDA (대학생 연합 빅데이터 학회) | 7기 데이터 분석 고급반 | 학회원 (수료) |
@@ -65,14 +65,14 @@
 
 ## Certifications
 
-| Certification | Issuer | Acquired |
+| 자격증 | 발급 기관 | 취득일 |
 | --- | --- | --- |
 | 제60회 SQL 개발자 (SQLD) | 한국데이터산업진흥원 | 2026.03.27 |
 | 제12회 빅데이터분석기사 (필기) | 한국데이터산업진흥원 | 2026.04.24 |
 
 ## Languages
 
-| Test | Score | Date |
+| 시험 | 점수 | 응시일 |
 | --- | --- | --- |
 | TOEIC Speaking Test | Intermediate Mid 3 (Speaking 130) | 2025.02.22 |
 
@@ -127,7 +127,7 @@
   <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
 </p>
 
-| Area | What It Covers | Related Work |
+| 영역 | 다루는 범위 | 관련 작업 |
 | --- | --- | --- |
 | Analysis / Modeling | 정형·시계열 데이터 전처리, 피처 설계, 검증 전략, 결과 해석 | 교통 위험 예측, 전력·판매량·선박 대기시간 예측 |
 | NLP / Retrieval | 법률 NLP, 한국어 문서 파싱, 검색 기반 질의응답, 평가 데이터 구성 | 법원 판결 예측, 해양 법령 RAG |
@@ -165,7 +165,7 @@
 
 ## Competition Work
 
-| Period | Competition | Result / Focus | Repository |
+| 기간 | 공모전 | 결과 / 초점 | 저장소 |
 | --- | --- | --- | --- |
 | 2025.11~2025.11 | 제3회 국민대학교 AI빅데이터 분석 경진대회 | 산업 지표 lead-lag 예측, Top 5.2% | [Industrial_Lead_Lag_Forecasting](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) |
 | 2025.10~2025.11 | 운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회 | 위험 확률 예측, Top 7.8% | [Driver_Cognitive_Risk_Prediction](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) |
@@ -181,13 +181,13 @@
 
 ## Publication
 
-| Period | Venue | Work | Repository |
+| 기간 | 학술대회 | 논문 | 저장소 |
 | --- | --- | --- | --- |
 | 2023.02~2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구 | [AI_Frenz_2023_Publication](https://github.com/Minsu5452/AI_Frenz_2023_Publication) |
 
 ## Coursework
 
-| Period | Category | Work | Repository |
+| 기간 | 분류 | 작업 | 저장소 |
 | --- | --- | --- | --- |
 | 2023.11~2023.12 | Idea Competition | 제3회 소외계층을 위한 AI 활용 아이디어 공모전 | [Supporting_Marginalized_Communities](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
 | 2022.09~2022.12 | Deep Learning | 이미지 컬러화 모델 비교 프로젝트 | [DL_Team_Project](https://github.com/Minsu5452/DL_Team_Project) |
