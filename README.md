@@ -18,15 +18,27 @@
 
 ---
 
-## Snapshot
+## Profile
 
 |  |  |
 | --- | --- |
-| Current | 데이콘 Data Science팀 매니저, 2025.12~현재 |
-| Previous | 슈어소프트테크 AX응용기술팀 AI 개발자 인턴, 2025.06~11 |
 | Education | 국민대학교 AI빅데이터융합경영학과 학사 |
-| Credentials | SQLD, 빅데이터분석기사 필기, TOEIC Speaking IM3 |
 | Keywords | 데이터 분석, 예측 모델링, NLP/RAG, 위험 예측, 서비스 구현, 대회 운영 |
+
+## Experience
+
+| Date | Organization | Role | Focus |
+| --- | --- | --- | --- |
+| 2025.12~현재 | 데이콘 Data Science팀 | 매니저 | 대회 기획·운영, 평가 자동화, AI 서비스형 프로젝트 |
+| 2025.06~11 | 슈어소프트테크 AX응용기술팀 | AI 개발자 인턴 | 해양사고 위험 예측, 해양 법령 RAG, 에이전트 검증 데이터 |
+
+## Credentials
+
+| Category | Credential | Issuer |
+| --- | --- | --- |
+| Data | SQLD | 한국데이터산업진흥원 |
+| Data | 빅데이터분석기사 필기 | 한국데이터산업진흥원 |
+| Language | TOEIC Speaking IM3 | ETS |
 
 ## Competition Highlights
 
