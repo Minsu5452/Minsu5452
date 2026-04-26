@@ -23,31 +23,58 @@
 
 ---
 
-## Profile
+## Education
 
-| Education | Keywords |
-| --- | --- |
-| 국민대학교 AI빅데이터융합경영학과 학사 | 데이터 분석, 예측 모델링, NLP/RAG, 위험 예측, 서비스 구현, 대회 운영 |
+| School | Department | Track | Degree | Period |
+| --- | --- | --- | --- | --- |
+| 국민대학교 | AI빅데이터융합경영학과 | 심화전공 | 학사 | 2018.03 ~ 2024.08 |
+
+## Keywords
+
+`데이터 분석` · `예측 모델링` · `LLM/RAG` · `AI 엔지니어링` · `서비스 배포` · `대회 운영`
 
 ## Experience
 
-### 데이콘 · Data Science팀 · 대회 매니저
-`2025.12~현재 · 약 5개월`
+### 데이콘 — Data Science팀 · 대회 매니저
+> `2025.12~현재` · 약 5개월 — 대회 기획·운영, 채점 자동화, B2B 협업
 
 | Project | Stack | Outcome |
 | --- | --- | --- |
-| 대회 기획·운영 | 채점 자동화 파이프라인 | B2B 협업 진행 |
 | LLM 평가 서버 | FastAPI · Redis · HMAC | 비동기 채점 (콜백 기반) |
-| 운수종사자 위험 예측 플랫폼 | React · Spring Boot · FastAPI · Nginx | NIA / 한국교통안전공단 사업 단독 개발 |
+| 운수종사자 위험 예측 플랫폼 | React · Spring Boot · FastAPI · Nginx | 개발·배포 단독 담당 (PL 협업, NIA / 한국교통안전공단 사업) |
 
-### 슈어소프트테크 · AX응용기술팀 · AI 개발자 (인턴)
-`2025.06~2025.11 · 6개월`
+### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
+> `2025.06~2025.11` · 6개월 — 해양사고 위험 예측, 해양 법령 RAG, 에이전트 검증 데이터
 
 | Project | Stack | Outcome |
 | --- | --- | --- |
 | 격자×시간 해양사고 위험 예측 | LightGBM 5-fold | OOF AUC **0.946** / PR-AUC **0.742** |
 | 해양 법령 RAG 파이프라인 | KR-SBERT · FAISS+BM25 · GraphRAG · LangGraph | hit@k **0.8** / cite_match **0.8** (6노드 워크플로우) |
 | KT 에이전트 검증 데이터셋 | 데이터 가공·검증 | 생성 및 검증 |
+
+## Activities
+
+| Period | Organization | Program | Role |
+| --- | --- | --- | --- |
+| 2023.10~2023.11 | 국민대학교 경영대학 | 연결고리 14기 (현업 동문 진로 멘토링) | 멘티 |
+| 2023.09~2024.03 | BDA (대학생 연합 빅데이터 학회) | 7기 데이터 분석 고급반 | 학회원 (수료) |
+| 2023.07~2023.09 | LG AI Research | LG Aimers 3기 (LG 청년 AI 인재 양성) | 교육생 |
+| 2023.03~2023.12 | D&A (국민대학교 빅데이터 분석 학회) | DL 세션 | 학회원 |
+| 2022.03~2022.12 | D&A (국민대학교 빅데이터 분석 학회) | ML 세션 | 학회원 |
+| 2021.12~2022.01 | D&A (국민대학교 빅데이터 분석 학회) | Python 기초 스터디 | 학회원 |
+
+## Certifications
+
+| Certification | Issuer | Acquired |
+| --- | --- | --- |
+| 제60회 SQL 개발자 (SQLD) | 한국데이터산업진흥원 | 2026.03.27 |
+| 제12회 빅데이터분석기사 (필기) | 한국데이터산업진흥원 | 2026.04.24 |
+
+## Languages
+
+| Test | Score | Date |
+| --- | --- | --- |
+| TOEIC Speaking Test | Intermediate Mid 3 (Speaking 130) | 2025.02.22 |
 
 ## Featured Awards
 
@@ -81,19 +108,6 @@
     </td>
   </tr>
 </table>
-
-## Certifications
-
-| Certification | Issuer | Acquired |
-| --- | --- | --- |
-| 제60회 SQL 개발자 (SQLD) | 한국데이터산업진흥원 | 2026.03.27 |
-| 제12회 빅데이터분석기사 (필기) | 한국데이터산업진흥원 | 2026.04.24 |
-
-## Languages
-
-| Test | Score | Date |
-| --- | --- | --- |
-| TOEIC Speaking Test | Intermediate Mid 3 (Speaking 130) | 2025.02.22 |
 
 ## Stack From Projects
 
@@ -179,22 +193,3 @@
 | 2022.09~2022.12 | Deep Learning | 이미지 컬러화 모델 비교 프로젝트 | [DL_Team_Project](https://github.com/Minsu5452/DL_Team_Project) |
 | 2022.09~2022.12 | Text Mining | 국민대·정릉시장 리뷰 토픽 모델링 | [Restaurant_Topic_Modeling](https://github.com/Minsu5452/Restaurant_Topic_Modeling) |
 | 2022.03~2022.06 | Machine Learning | 머신러닝 수업 프로젝트, Kaggle `kml2022s` 2nd | [ML_Team_Project](https://github.com/Minsu5452/ML_Team_Project) |
-
-## Activities
-
-| Period | Organization | Program | Role |
-| --- | --- | --- | --- |
-| 2023.10~2023.11 | 국민대학교 경영대학 | 연결고리 14기 (현업 동문 진로 멘토링) | 멘티 |
-| 2023.09~2024.03 | BDA (대학생 연합 빅데이터 학회) | 7기 데이터 분석 고급반 | 학회원 (수료) |
-| 2023.07~2023.09 | LG AI Research | LG Aimers 3기 (LG 청년 AI 인재 양성) | 교육생 |
-| 2023.03~2023.12 | D&A (국민대학교 빅데이터 분석 학회) | DL 세션 | 학회원 |
-| 2022.03~2022.12 | D&A (국민대학교 빅데이터 분석 학회) | ML 세션 | 학회원 |
-| 2021.12~2022.01 | D&A (국민대학교 빅데이터 분석 학회) | Python 기초 스터디 | 학회원 |
-
-## Contact
-
-<p>
-  <a href="mailto:daro980722@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-daro980722%40gmail.com-334155?style=flat-square"></a>
-  <a href="mailto:daro98@naver.com"><img alt="Naver Mail" src="https://img.shields.io/badge/Naver-daro98%40naver.com-03C75A?style=flat-square"></a>
-  <a href="https://dacon.io/myprofile/457768/home"><img alt="DACON" src="https://img.shields.io/badge/DACON-Profile-0052CC?style=flat-square"></a>
-</p>
