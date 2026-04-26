@@ -83,13 +83,13 @@
     <td align="center" width="50%">
       <h3>🥇 1st Place</h3>
       <strong>유전체 정보 품종 분류 AI 경진대회</strong><br>
-      <sub>716팀 · 충남대 바이오AI / 데이콘</sub><br>
+      <sub>충남대 바이오AI / 데이콘</sub><br>
       <sub>SNP 정보 기반 품종 분류 모델</sub>
     </td>
     <td align="center" width="50%">
       <h3>🥈 2nd Place</h3>
       <strong>법원 판결 예측 AI 경진대회</strong><br>
-      <sub>506팀 · 데이콘</sub><br>
+      <sub>데이콘</sub><br>
       <sub>법률 NLP, 판결 분류</sub>
     </td>
   </tr>
@@ -97,13 +97,13 @@
     <td align="center">
       <h3>🥈 2nd Place</h3>
       <strong>HD현대 AI Challenge</strong><br>
-      <sub>예선 330팀 / 본선 11팀 · HD한국조선해양</sub><br>
+      <sub>HD한국조선해양</sub><br>
       <sub>선박 대기시간 예측</sub>
     </td>
     <td align="center">
       <h3>🎯 Top 1.6%</h3>
       <strong>온라인 채널 제품 판매량 예측 AI 해커톤</strong><br>
-      <sub>예선 747팀 / 본선 43팀 · LG AI Research</sub><br>
+      <sub>LG AI Research</sub><br>
       <sub>판매량 시계열 예측</sub>
     </td>
   </tr>
