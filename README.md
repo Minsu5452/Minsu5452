@@ -2,9 +2,9 @@
 
 <div align="center">
 
-데이터를 분석하고, 모델로 검증하고, 서비스로 만들어내는 한 사이클을 직접 다루는 걸 좋아합니다.<br>
-교통·해양·법률 등 여러 도메인의 분석·예측 모델을 운영 가능한 형태까지 끌고 가는 데 흥미가 있습니다.<br>
-최근에는 대회 설계와 B2B 협업, LLM 평가 시스템·한국어 RAG 파이프라인 구현을 함께 다루고 있습니다.
+데이터 분석·예측 모델링·서비스 구현을 실제 문제에 연결합니다.<br>
+교통·해양·법률 등 여러 도메인의 모델을 운영 가능한 웹 서비스 형태까지 끌고 갑니다.<br>
+최근에는 LLM 평가 시스템과 운수종사자 사고 위험 예측 웹 플랫폼, 한국어 RAG 파이프라인을 다루고 있습니다.
 
 <p>
   <img alt="Data Analysis" src="https://img.shields.io/badge/Data%20Analysis-334155?style=flat-square">
@@ -36,12 +36,12 @@
 ## Experience
 
 ### 데이콘 — Data Science팀 · 대회 매니저
-> `2025.12~현재` · 대회·해커톤 기획 / 운영, AI PoC 단독 실행
+> `2025.12~현재` · 대회·해커톤 기획 / 운영, LLM 평가 시스템 / 운수종사자 사고 위험 예측 웹 플랫폼 개발
 
-| 프로젝트 | 기술 스택 | 성과 |
-| --- | --- | --- |
-| LLM 평가 시스템 | FastAPI · Redis · asyncio · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | LLM Council 2단계 채점(1차 독립 → 2차 종합) 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 보호 정책 수립 |
-| 운수종사자 사고 위험 예측 웹 플랫폼 개발 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 프론트·백엔드·AI 엔진·외부망 분리 포터블 배포까지 단독 개발 |
+| 기간 | 프로젝트 | 기술 스택 | 성과 |
+| --- | --- | --- | --- |
+| 2026.02~2026.04 | LLM 평가 시스템 | FastAPI · Redis · asyncio · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | LLM Council 2단계 채점(1차 독립 → 2차 종합) 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 보호 정책 수립 |
+| 2025.12~2026.03 | 운수종사자 사고 위험 예측 웹 플랫폼 개발 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 프론트·백엔드·AI 엔진·외부망 분리 포터블 배포까지 단독 개발 |
 
 ### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
 > `2025.06~2025.11` · 해양사고 위험 예측 / 해양 법령 도메인 RAG / 에이전트 검증
@@ -136,26 +136,26 @@
 <table>
   <tr>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/Driver_Risk_Web_Platform">운수종사자 사고 위험 예측 웹 플랫폼</a></strong><br>
+      <strong><a href="https://github.com/Minsu5452/Driver_Risk_Web_Platform">운수종사자 사고 위험 예측 웹 플랫폼 개발</a></strong><br>
       검사 데이터 업로드, 사고 위험 예측, 관리자 기능, 배포 패키지까지 연결한 풀스택 웹 플랫폼입니다.<br>
-      <sub>2025.12~현재 · React · Spring Boot · FastAPI · Nginx</sub>
+      <sub>2025.12~2026.03 · React · Spring Boot · FastAPI · Nginx</sub>
     </td>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/Marine_Accident_Risk_Prediction">격자×시간 해양사고 위험 예측</a></strong><br>
-      사고·격자·기상 데이터를 결합해 해양사고 위험도를 예측하고 API와 대시보드로 확인하는 데모입니다. OOF AUC 0.946 / PR-AUC 0.742.<br>
+      <strong><a href="https://github.com/Minsu5452/Marine_Accident_Risk_Prediction">해양사고 위험 예측 시스템</a></strong><br>
+      사고·격자·기상 데이터를 결합해 격자×시간 단위로 해양사고 위험도를 예측하고 API와 대시보드로 확인하는 데모입니다. OOF AUC 0.946 / PR-AUC 0.742.<br>
       <sub>2025.06~2025.11 · LightGBM · FastAPI · Streamlit</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/Marine_Domain_RAG">해양 법령 기반 RAG 파이프라인</a></strong><br>
+      <strong><a href="https://github.com/Minsu5452/Marine_Domain_RAG">해양 법령 도메인 RAG 파이프라인</a></strong><br>
       공개 법령 12건·394 조문을 KR-SBERT + FAISS/BM25 hybrid 로 검색하고, GraphRAG·LangGraph 6노드로 답변 흐름을 구성한 RAG 프로젝트입니다. hit@k 0.8 / cite_match 0.8.<br>
       <sub>2025.06~2025.11 · RAG · GraphRAG · LangGraph · EXAONE</sub>
     </td>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/LLM_Evaluation_System">해커톤 제출물 평가·채점 서버</a></strong><br>
-      제출물을 자동 평가하고, 작업 큐와 callback으로 결과를 반환하는 비동기 평가 서버입니다.<br>
-      <sub>2025.12~현재 · FastAPI · Redis · HMAC</sub>
+      <strong><a href="https://github.com/Minsu5452/LLM_Evaluation_System">LLM 평가 시스템</a></strong><br>
+      해커톤 제출물을 LLM Council 2단계로 자동 채점하고, 작업 큐와 HMAC 서명 콜백으로 결과를 반환하는 비동기 평가 서버입니다.<br>
+      <sub>2026.02~2026.04 · FastAPI · Redis · HMAC</sub>
     </td>
   </tr>
 </table>
@@ -164,29 +164,29 @@
 
 | 기간 | 공모전 | 주제 | 결과 |
 | --- | --- | --- | --- |
-| 2025.11 | [제3회 국민대학교 AI빅데이터 분석 경진대회](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) | 산업 지표 lead-lag 예측 | Top 5.2% |
-| 2025.10~11 | [운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) | 위험 확률 예측 | Top 7.8% |
-| 2023.09~10 | [HD현대 AI Challenge](https://github.com/Minsu5452/Ship_Waiting_Time_Prediction) | 선박 대기시간 예측 | 2nd |
-| 2023.09 | [2023 스마트농업 AI 경진대회](https://github.com/Minsu5452/Smart_Farm_Yield_Energy_Prediction) | 수확량·에너지 사용량 예측 | — |
-| 2023.08 | [온라인 채널 제품 판매량 예측 AI 온라인 해커톤](https://github.com/Minsu5452/LG_Online_Sales_Forecasting) | 판매량 시계열 예측 | Top 1.6% |
-| 2023.07~08 | [2023 전력사용량 예측 AI 경진대회](https://github.com/Minsu5452/Power_Consumption_Forecasting) | 건물별 전력사용량 예측 | Top 8.7% |
-| 2023.06~07 | [법원 판결 예측 AI 경진대회](https://github.com/Minsu5452/Court_Judgment_Prediction) | 법률 NLP, 판결 분류 | 2nd |
-| 2023.01~02 | [2023년 지역 치안 안전 데이터 분석 공모전](https://github.com/Minsu5452/Traffic_Accident_Prediction) | 기상 데이터 기반 교통사고 위험 예측 | — |
+| 2025.11~2025.11 | [제3회 국민대학교 AI빅데이터 분석 경진대회](https://github.com/Minsu5452/Industrial_Lead_Lag_Forecasting) | 산업 지표 lead-lag 예측 | Top 5.2% |
+| 2025.10~2025.11 | [운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회](https://github.com/Minsu5452/Driver_Cognitive_Risk_Prediction) | 위험 확률 예측 | Top 7.8% |
+| 2023.09~2023.10 | [HD현대 AI Challenge](https://github.com/Minsu5452/Ship_Waiting_Time_Prediction) | 선박 대기시간 예측 | 2nd |
+| 2023.09~2023.09 | [2023 스마트농업 AI 경진대회](https://github.com/Minsu5452/Smart_Farm_Yield_Energy_Prediction) | 수확량·에너지 사용량 예측 | — |
+| 2023.08~2023.08 | [온라인 채널 제품 판매량 예측 AI 온라인 해커톤](https://github.com/Minsu5452/LG_Online_Sales_Forecasting) | 판매량 시계열 예측 | Top 1.6% |
+| 2023.07~2023.08 | [2023 전력사용량 예측 AI 경진대회](https://github.com/Minsu5452/Power_Consumption_Forecasting) | 건물별 전력사용량 예측 | Top 8.7% |
+| 2023.06~2023.07 | [법원 판결 예측 AI 경진대회](https://github.com/Minsu5452/Court_Judgment_Prediction) | 법률 NLP, 판결 분류 | 2nd |
+| 2023.01~2023.02 | [2023년 지역 치안 안전 데이터 분석 공모전](https://github.com/Minsu5452/Traffic_Accident_Prediction) | 기상 데이터 기반 교통사고 위험 예측 | — |
 | 2022.12~2023.01 | [유전체 정보 품종 분류 AI 경진대회](https://github.com/Minsu5452/Genomic_Data_Breed_Classification) | SNP 기반 품종 분류 | 1st |
-| 2022.12 | [감귤 착과량 예측 AI 경진대회](https://github.com/Minsu5452/Citrus_Yield_Prediction) | 착과량 예측 | Top 6.6% |
-| 2022.06~08 | [제7회 롯데멤버스 빅데이터 경진대회](https://github.com/Minsu5452/Lotte_Members_Customer_Analytics) | L.POINT 고객 행동 분석 | — |
+| 2022.12~2022.12 | [감귤 착과량 예측 AI 경진대회](https://github.com/Minsu5452/Citrus_Yield_Prediction) | 착과량 예측 | Top 6.6% |
+| 2022.06~2022.08 | [제7회 롯데멤버스 빅데이터 경진대회](https://github.com/Minsu5452/Lotte_Members_Customer_Analytics) | L.POINT 고객 행동 분석 | — |
 
 ## Publication
 
 | 기간 | 학술대회 | 논문 |
 | --- | --- | --- |
-| 2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | [SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구](https://github.com/Minsu5452/AI_Frenz_2023_Publication) |
+| 2023.02~2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | [SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구](https://github.com/Minsu5452/AI_Frenz_2023_Publication) |
 
 ## Coursework
 
 | 기간 | 분류 | 작업 |
 | --- | --- | --- |
-| 2023.11~12 | Idea Competition | [제3회 소외계층을 위한 AI 활용 아이디어 공모전](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
-| 2022.09~12 | Deep Learning | [이미지 컬러화 모델 비교 프로젝트](https://github.com/Minsu5452/DL_Team_Project) |
-| 2022.09~12 | Text Mining | [국민대·정릉시장 리뷰 토픽 모델링](https://github.com/Minsu5452/Restaurant_Topic_Modeling) |
-| 2022.03~06 | Machine Learning | [머신러닝 수업 프로젝트, Kaggle `kml2022s` 2nd](https://github.com/Minsu5452/ML_Team_Project) |
+| 2023.11~2023.12 | Idea Competition | [제3회 소외계층을 위한 AI 활용 아이디어 공모전](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
+| 2022.09~2022.12 | Deep Learning | [이미지 컬러화 모델 비교 프로젝트](https://github.com/Minsu5452/DL_Team_Project) |
+| 2022.09~2022.12 | Text Mining | [국민대·정릉시장 리뷰 토픽 모델링](https://github.com/Minsu5452/Restaurant_Topic_Modeling) |
+| 2022.03~2022.06 | Machine Learning | [머신러닝 수업 프로젝트, Kaggle `kml2022s` 2nd](https://github.com/Minsu5452/ML_Team_Project) |
