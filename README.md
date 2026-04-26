@@ -40,17 +40,17 @@
 
 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- |
-| 해커톤 제출물 LLM 채점 시스템 | FastAPI · Redis · asyncio · HMAC · Multi-LLM(Gemini/OpenAI/Anthropic) | 다중 LLM Council 2단계 채점 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 제출 횟수 보호 정책 수립 |
-| 운수종사자 사고 위험 예측 웹 플랫폼 | React · Spring Boot · FastAPI · Nginx | 프론트·백엔드·AI 엔진·배포까지 단독 개발 (PL 협업, NIA / 한국교통안전공단 사업) |
+| LLM 평가시스템 개발 (LLM Council 2단계 채점) | FastAPI · Redis · asyncio · HMAC · Multi-LLM(Gemini/OpenAI/Anthropic) | 다중 LLM Council 2단계 채점 흐름 단독 설계·구현, HMAC 서명 콜백·USER/SYSTEM 에러 분리로 사용자 제출 횟수 보호 정책 수립 |
+| 운수종사자 교통사고 위험 예측 웹 플랫폼 (NIA / 한국교통안전공단 사업) | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 프론트·백엔드·AI 엔진·포터블 배포까지 단독 개발 (PL 협업) |
 
 ### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
-> `2025.06~2025.11` · 6개월 — 해양사고 위험 예측, 해양 법령 RAG, 에이전트 검증 데이터
+> `2025.06~2025.11` · 6개월 — 해양사고 위험 예측, 해양 도메인 RAG, 에이전트 검증 데이터
 
 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- |
-| 격자×시간 해양사고 위험 예측 | LightGBM 5-fold | OOF AUC **0.946** / PR-AUC **0.742** |
-| 해양 법령 RAG 파이프라인 | KR-SBERT · FAISS+BM25 · GraphRAG · LangGraph | hit@k **0.8** / cite_match **0.8** (6노드 워크플로우) |
-| KT 에이전트 검증 데이터셋 | 데이터 가공·검증 | 생성 및 검증 |
+| 격자×시간 해양사고 위험 예측 (AI융복합) | LightGBM 5-fold · SHAP · FastAPI · Streamlit · Docker | OOF AUC **0.946** / PR-AUC **0.742**, 분석 → 모델 → 서빙 → 격자 대시보드 e2e 단독 구축 |
+| 해양 도메인 RAG 파이프라인 (CDX) | KR-SBERT · FAISS+BM25 hybrid · GraphRAG · LangGraph 6노드 · EXAONE GGUF | 해수부·해경 12개 법령 394 조문 인덱싱, 평가 hit@k **0.8** / cite_match **0.8** |
+| KT 에이전트 검증 데이터셋 생성 및 검증 | Agent QA / Eval · 데이터 큐레이션 | 검증 셋 설계·생성·검증 자동화 |
 
 ## Activities
 
