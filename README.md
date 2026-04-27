@@ -52,7 +52,7 @@
 
 | 기간 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- | --- |
-| 2025.06~2025.11 | 해양사고 위험 예측 시스템 개발 | PostgreSQL · ML · SHAP · FastAPI | 격자×시간 단위 데이터 설계, 위험 예측 모델 학습, 설명가능 AI 관점에서 SHAP 적용 (AI융복합 과제) |
+| 2025.06~2025.11 | 해양사고 위험 예측 시스템 개발 | PostgreSQL · ML · SHAP · FastAPI | 격자×시간 단위 데이터 설계, 위험 예측 모델 학습, 설명가능 AI 관점에서 SHAP 적용 (해양경찰청 AI융복합 과제) |
 | 2025.06~2025.11 | 해양 법령 도메인 RAG DB 구축 | GraphRAG · LangGraph | 해수부·해경 관련 법령 도메인의 RAG DB 구축, 검색·답변 흐름 구성에 참여 (CDX 과제) |
 | 2025.06~2025.11 | KT 에이전트 검증 데이터셋 구축 | Agent QA / Eval · 데이터셋 큐레이션 | KT 협업, 검증 셋 설계·생성·검증 자동화 |
 
@@ -146,15 +146,15 @@
     </td>
     <td width="50%">
       <strong><a href="https://github.com/Minsu5452/Marine_Accident_Risk_Prediction">해양사고 위험 예측 시스템 개발</a></strong><br>
-      사고·격자·기상 데이터를 결합해 격자×시간 단위로 해양사고 위험도를 예측하고 API와 대시보드로 확인하는 데모입니다. OOF AUC 0.946 / PR-AUC 0.742.<br>
-      <sub>2025.06~2025.11 · LightGBM · FastAPI · Streamlit</sub>
+      사고·격자·기상 데이터를 결합해 격자×시간 단위로 해양사고 위험을 사전 식별하는 흐름을 검증한 해양경찰청 AI융복합 과제의 공개 가능 재현입니다. 도메인 데이터 결합과 설명가능성 관점의 모델 해석에 초점을 맞췄습니다.<br>
+      <sub>2025.06~2025.11 · ML · SHAP · FastAPI</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <strong><a href="https://github.com/Minsu5452/Marine_Domain_RAG">해양 법령 도메인 RAG 시스템 개발</a></strong><br>
-      공개 법령 12건·394 조문을 KR-SBERT + FAISS/BM25 hybrid 로 검색하고, GraphRAG·LangGraph 6노드로 답변 흐름을 구성한 RAG 프로젝트입니다. hit@k 0.8 / cite_match 0.8.<br>
-      <sub>2025.06~2025.11 · RAG · GraphRAG · LangGraph · EXAONE</sub>
+      해양 법령 도메인의 검색·답변 흐름을 그래프 기반으로 구성한 RAG 데모입니다. 조문 간 참조를 반영해 단순 키워드 검색보다 정확한 인용을 만드는 흐름에 초점을 맞췄습니다.<br>
+      <sub>2025.06~2025.11 · RAG · GraphRAG · LangGraph</sub>
     </td>
     <td width="50%">
       <strong><a href="https://github.com/Minsu5452/LLM_Evaluation_System">LLM 평가 시스템 개발</a></strong><br>
