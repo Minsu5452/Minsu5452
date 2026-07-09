@@ -140,9 +140,9 @@
 <table>
   <tr>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/Driver_Risk_Web_Platform">운수종사자 교통사고 위험 예측 모델·관리 웹 개발</a></strong><br>
+      <strong><a href="https://github.com/Minsu5452/driver-risk-web-platform">운수종사자 교통사고 위험 예측 모델·관리 웹 개발</a></strong><br>
       경진대회 코드 기반 ML 모델과 검사 데이터 업로드·교통사고 위험 예측·관리자 기능·배포 패키지를 연결한 관리 웹입니다.<br>
-      <sub>2025.12~2026.03 · LightGBM · React · Spring Boot · FastAPI · Nginx</sub>
+      <sub>2025.12~2026.04 · LightGBM · React · Spring Boot · FastAPI · Nginx</sub>
     </td>
     <td width="50%">
       <strong><a href="https://github.com/Minsu5452/Marine_Accident_Risk_Prediction">해양사고 위험 예측 시스템 개발</a></strong><br>
