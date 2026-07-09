@@ -184,7 +184,7 @@
 
 | 기간 | 학술대회 | 논문 |
 | --- | --- | --- |
-| 2023.02~2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | [SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구](https://github.com/Minsu5452/AI_Frenz_2023_Publication) |
+| 2023.02~2023.02 | AAiCON 2023 제2차 실용 인공지능 학술대회 | [SNP 정보를 활용한 유전체 품종 분류 모델링에 대한 연구](https://github.com/Minsu5452/snp-breed-classification-paper) |
 
 ## Coursework
 
