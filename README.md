@@ -45,14 +45,14 @@
 | 기간 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- | --- |
 | 2026.02~2026.04 | LLM 평가 시스템 개발 | FastAPI · Redis · asyncio · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | LLM Council 2단계 채점 흐름 설계·구현, HMAC 콜백·사용자 보호 정책 수립 |
-| 2025.12~2026.03 | 운수종사자 교통사고 위험 예측 모델·관리 웹 개발 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 경진대회 코드 기반 ML 모델·외부망 분리 환경 현장 배포까지 전 구간 진행 |
+| 2025.12~2026.04 | 운수종사자 교통사고 위험 예측 모델·관리 웹 개발 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 경진대회 코드 기반 ML 모델·외부망 분리 환경 현장 배포까지 전 구간 진행 |
 
 ### 슈어소프트테크 — AX응용기술팀 · AI 개발자 (인턴)
 > `2025.06~2025.11` (6개월) · 해양사고 위험 예측 시스템 개발 / 해양 법령 도메인 RAG 시스템 개발 / KT 에이전트 검증 데이터셋 구축
 
 | 기간 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- | --- |
-| 2025.06~2025.11 | 해양사고 위험 예측 시스템 개발 | PostgreSQL · ML · SHAP · FastAPI | 해양경찰청 AI융복합 과제로 격자×시간 단위 데이터 설계, 위험 예측 모델 학습, 설명가능 AI 관점에서 SHAP 적용 |
+| 2025.06~2025.11 | 해양사고 위험 예측 시스템 개발 | PostgreSQL · ML · SHAP · FastAPI | 해양수산부 AI융복합 과제로 격자×시간 단위 데이터 설계, 위험 예측 모델 학습, 설명가능 AI 관점에서 SHAP 적용 |
 | 2025.06~2025.11 | 해양 법령 도메인 RAG DB 구축 | LLM · RAG · GraphRAG · LangGraph | 해양경찰청 CDX 과제로 해수부·해경 관련 법령 도메인의 RAG DB 구축, 검색·답변 흐름 구성에 참여 |
 | 2025.06~2025.11 | KT 에이전트 검증 데이터셋 구축 | Agent QA / Eval · 데이터셋 큐레이션 | KT 협업, 검증 셋 설계·생성·검증 자동화 |
 
@@ -85,13 +85,13 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <h3>🥇 1st Place</h3>
+      <h3>🥇 1위</h3>
       <strong><a href="https://github.com/Minsu5452/genomic-breed-classification">유전체 정보 품종 분류 AI 경진대회</a></strong><br>
       <sub>충남대 바이오AI / 데이콘</sub><br>
       <sub>SNP 기반 품종 분류</sub>
     </td>
     <td align="center" width="50%">
-      <h3>🥈 2nd Place</h3>
+      <h3>🥈 2위</h3>
       <strong><a href="https://github.com/Minsu5452/court-judgment-prediction">법원 판결 예측 AI 경진대회</a></strong><br>
       <sub>데이콘</sub><br>
       <sub>법률 판결문 분류 NLP</sub>
@@ -99,13 +99,13 @@
   </tr>
   <tr>
     <td align="center" width="50%">
-      <h3>🥈 2nd Place</h3>
+      <h3>🥈 예선 2위</h3>
       <strong><a href="https://github.com/Minsu5452/ship-waiting-time-prediction">HD현대 AI Challenge</a></strong><br>
       <sub>HD한국조선해양</sub><br>
       <sub>선박 대기시간 예측</sub>
     </td>
     <td align="center" width="50%">
-      <h3>🎯 Top 1.6%</h3>
+      <h3>🎯 예선 상위 1.6%</h3>
       <strong><a href="https://github.com/Minsu5452/online-sales-forecasting">온라인 채널 제품 판매량 예측 AI 해커톤</a></strong><br>
       <sub>LG AI Research</sub><br>
       <sub>판매량 시계열 예측</sub>
@@ -164,14 +164,14 @@
 
 | 기간 | 공모전 | 주제 | 결과 |
 | --- | --- | --- | --- |
-| 2025.11~2025.11 | [제3회 국민대학교 AI빅데이터 분석 경진대회](https://github.com/Minsu5452/industrial-lead-lag-forecasting) | 산업 지표 lead-lag 예측 | Top 5.2% |
-| 2025.10~2025.11 | [운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회](https://github.com/Minsu5452/driver-cognitive-risk-prediction) | 위험 확률 예측 | Top 7.8% |
-| 2023.09~2023.10 | [HD현대 AI Challenge](https://github.com/Minsu5452/ship-waiting-time-prediction) | 선박 대기시간 예측 | **2nd** |
-| 2023.08~2023.08 | [온라인 채널 제품 판매량 예측 AI 온라인 해커톤](https://github.com/Minsu5452/online-sales-forecasting) | 판매량 시계열 예측 | **Top 1.6%** |
-| 2023.07~2023.08 | [2023 전력사용량 예측 AI 경진대회](https://github.com/Minsu5452/power-consumption-forecasting) | 건물별 전력사용량 예측 | Top 8.7% |
-| 2023.06~2023.07 | [법원 판결 예측 AI 경진대회](https://github.com/Minsu5452/court-judgment-prediction) | 법률 판결문 분류 NLP | **2nd** |
-| 2022.12~2023.01 | [유전체 정보 품종 분류 AI 경진대회](https://github.com/Minsu5452/genomic-breed-classification) | SNP 기반 품종 분류 | **1st** |
-| 2022.12~2022.12 | [감귤 착과량 예측 AI 경진대회](https://github.com/Minsu5452/citrus-yield-prediction) | 착과량 예측 | Top 6.6% |
+| 2025.11~2025.11 | [제3회 국민대학교 AI빅데이터 분석 경진대회](https://github.com/Minsu5452/industrial-lead-lag-forecasting) | 산업 지표 lead-lag 예측 | 예선 상위 5.2% |
+| 2025.10~2025.11 | [운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회](https://github.com/Minsu5452/driver-cognitive-risk-prediction) | 위험 확률 예측 | 상위 7.8% |
+| 2023.09~2023.10 | [HD현대 AI Challenge](https://github.com/Minsu5452/ship-waiting-time-prediction) | 선박 대기시간 예측 | **예선 2위** · 본선 6위 |
+| 2023.08~2023.08 | [온라인 채널 제품 판매량 예측 AI 온라인 해커톤](https://github.com/Minsu5452/online-sales-forecasting) | 판매량 시계열 예측 | **예선 상위 1.6%** |
+| 2023.07~2023.08 | [2023 전력사용량 예측 AI 경진대회](https://github.com/Minsu5452/power-consumption-forecasting) | 건물별 전력사용량 예측 | 상위 8.7% |
+| 2023.06~2023.07 | [법원 판결 예측 AI 경진대회](https://github.com/Minsu5452/court-judgment-prediction) | 법률 판결문 분류 NLP | **2위** |
+| 2022.12~2023.01 | [유전체 정보 품종 분류 AI 경진대회](https://github.com/Minsu5452/genomic-breed-classification) | SNP 기반 품종 분류 | **1위** |
+| 2022.12~2022.12 | [감귤 착과량 예측 AI 경진대회](https://github.com/Minsu5452/citrus-yield-prediction) | 착과량 예측 | 상위 6.6% |
 
 ## Publication
 
