@@ -145,22 +145,18 @@
       <sub>2025.12~2026.04 · LightGBM · React · Spring Boot · FastAPI · Nginx</sub>
     </td>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/Marine_Accident_Risk_Prediction">해양사고 위험 예측 시스템 개발</a></strong><br>
-      사고·격자·기상 데이터를 결합해 격자×시간 단위로 해양사고 위험을 사전 식별하는 흐름을 검증한 해양경찰청 AI융복합 과제의 공개 가능 재현입니다. 도메인 데이터 결합과 설명가능성 관점의 모델 해석에 초점을 맞췄습니다.<br>
-      <sub>2025.06~2025.11 · ML · SHAP · FastAPI</sub>
+      <strong><a href="https://github.com/Minsu5452/korean-marine-accident-risk">해양사고 위험 예측 시스템 개발</a></strong><br>
+      사고·격자·기상 데이터를 결합해 격자×시간 단위로 해양사고 위험을 사전 식별하는 흐름을 검증한 해양수산부 AI융복합 과제의 공개 가능한 재현입니다. 도메인 데이터 결합과 설명가능성 관점의 모델 해석에 초점을 맞췄습니다.<br>
+      <sub>2025.06~2025.11 · LightGBM · statsmodels · FastAPI · Next.js · MapLibre</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/Marine_Domain_RAG">해양 법령 도메인 RAG 시스템 개발</a></strong><br>
-      해양 법령 도메인의 검색·답변 흐름을 그래프 기반으로 구성한 RAG 데모입니다. 조문 간 참조를 반영해 단순 키워드 검색보다 정확한 인용을 만드는 흐름에 초점을 맞췄습니다.<br>
-      <sub>2025.06~2025.11 · RAG · GraphRAG · LangGraph</sub>
+      <strong><a href="https://github.com/Minsu5452/korean-maritime-law-rag">해양 법령 도메인 RAG 시스템 개발</a></strong><br>
+      해양 법령을 조문 단위로 검색하고 답변마다 근거 조문을 인용하는 RAG 데모입니다. BM25·벡터·조문 관계 그래프 검색을 병합해 단순 키워드 검색보다 정확한 인용을 만드는 흐름에 초점을 맞췄습니다.<br>
+      <sub>2025.06~2025.11 · LangGraph · BM25 · Qdrant · Neo4j · OpenAI API</sub>
     </td>
-    <td width="50%">
-      <strong><a href="https://github.com/Minsu5452/LLM_Evaluation_System">LLM 평가 시스템 개발</a></strong><br>
-      해커톤 제출물을 LLM Council 2단계로 자동 채점하고, 작업 큐와 HMAC 서명 콜백으로 결과를 반환하는 비동기 평가 서버입니다.<br>
-      <sub>2026.02~2026.04 · FastAPI · Redis · HMAC</sub>
-    </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
@@ -171,14 +167,11 @@
 | 2025.11~2025.11 | [제3회 국민대학교 AI빅데이터 분석 경진대회](https://github.com/Minsu5452/industrial-lead-lag-forecasting) | 산업 지표 lead-lag 예측 | Top 5.2% |
 | 2025.10~2025.11 | [운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회](https://github.com/Minsu5452/driver-cognitive-risk-prediction) | 위험 확률 예측 | Top 7.8% |
 | 2023.09~2023.10 | [HD현대 AI Challenge](https://github.com/Minsu5452/ship-waiting-time-prediction) | 선박 대기시간 예측 | **2nd** |
-| 2023.09~2023.09 | [2023 스마트농업 AI 경진대회](https://github.com/Minsu5452/Smart_Farm_Yield_Energy_Prediction) | 수확량·에너지 사용량 예측 | — |
 | 2023.08~2023.08 | [온라인 채널 제품 판매량 예측 AI 온라인 해커톤](https://github.com/Minsu5452/online-sales-forecasting) | 판매량 시계열 예측 | **Top 1.6%** |
 | 2023.07~2023.08 | [2023 전력사용량 예측 AI 경진대회](https://github.com/Minsu5452/power-consumption-forecasting) | 건물별 전력사용량 예측 | Top 8.7% |
 | 2023.06~2023.07 | [법원 판결 예측 AI 경진대회](https://github.com/Minsu5452/court-judgment-prediction) | 법률 판결문 분류 NLP | **2nd** |
-| 2023.01~2023.02 | [2023년 지역 치안 안전 데이터 분석 공모전](https://github.com/Minsu5452/Traffic_Accident_Prediction) | 기상 데이터 기반 교통사고 위험 예측 | — |
 | 2022.12~2023.01 | [유전체 정보 품종 분류 AI 경진대회](https://github.com/Minsu5452/genomic-breed-classification) | SNP 기반 품종 분류 | **1st** |
 | 2022.12~2022.12 | [감귤 착과량 예측 AI 경진대회](https://github.com/Minsu5452/citrus-yield-prediction) | 착과량 예측 | Top 6.6% |
-| 2022.06~2022.08 | [제7회 롯데멤버스 빅데이터 경진대회](https://github.com/Minsu5452/Lotte_Members_Customer_Analytics) | L.POINT 고객 행동 분석 | — |
 
 ## Publication
 
@@ -190,7 +183,6 @@
 
 | 기간 | 분류 | 작업 |
 | --- | --- | --- |
-| 2023.11~2023.12 | 아이디어 공모전 | [제3회 소외계층을 위한 AI 활용 아이디어 공모전](https://github.com/Minsu5452/Supporting_Marginalized_Communities) |
 | 2022.09~2022.12 | 딥러닝 | [이미지 컬러화 모델 비교 프로젝트](https://github.com/Minsu5452/dl-image-colorization) |
 | 2022.09~2022.12 | 텍스트 마이닝 | [국민대·정릉시장 리뷰 토픽 모델링](https://github.com/Minsu5452/text-mining-review-topics) |
 | 2022.03~2022.06 | 머신러닝 | [백화점 고객 구매 이력 분류 (Kaggle `kml2022s` 2위)](https://github.com/Minsu5452/ml-department-store-classification) |
