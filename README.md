@@ -22,25 +22,25 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://korean-maritime-law-rag.vercel.app"><img src="assets/maritime-rag.png" alt="해양 법령 RAG 데모 화면"></a>
-      <h3><a href="https://github.com/Minsu5452/korean-maritime-law-rag">해양 법령 RAG 에이전트</a></h3>
+      <h3><a href="https://github.com/Minsu5452/maritime-law-rag-agent">해양 법령 RAG 에이전트</a></h3>
       해양 법령 105개(7,506개 조문)를 BM25·벡터·조문 관계 그래프로 함께 검색하고, 답변마다 근거 조문을 인용합니다.<br>LangGraph 라우팅으로 질문 유형별 검색 전략을 고르고, 골드셋 180문항으로 검색 품질을 검증했습니다.<br><br>
-      <a href="https://korean-maritime-law-rag.vercel.app"><b>🔗 라이브 데모</b></a> · <a href="https://github.com/Minsu5452/korean-maritime-law-rag">저장소</a><br>
+      <a href="https://korean-maritime-law-rag.vercel.app"><b>🔗 라이브 데모</b></a> · <a href="https://github.com/Minsu5452/maritime-law-rag-agent">저장소</a><br>
       <sub>LangGraph · Qdrant · Neo4j · OpenAI API · FastAPI</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Minsu5452/driver-risk-web-platform"><img src="assets/driver-risk.png" alt="교통사고 위험 예측 플랫폼 대시보드 화면"></a>
-      <h3><a href="https://github.com/Minsu5452/driver-risk-web-platform">교통사고 위험 예측 플랫폼</a></h3>
+      <a href="https://github.com/Minsu5452/driver-risk-prediction-platform"><img src="assets/driver-risk.png" alt="교통사고 위험 예측 플랫폼 대시보드 화면"></a>
+      <h3><a href="https://github.com/Minsu5452/driver-risk-prediction-platform">교통사고 위험 예측 플랫폼</a></h3>
       운수종사자의 검사 결과와 사고 이력을 학습한 앙상블 모델로 사고 위험도를 예측하고, SHAP 해석과 함께 화면에서 조회·관리합니다.<br>예측 모델과 FastAPI 서빙, 관리 웹, 망분리 운영 환경에 맞춘 오프라인 배포 체계까지 전 구간을 개발했습니다.<br><br>
-      <a href="https://github.com/Minsu5452/driver-risk-web-platform"><b>저장소</b></a><br>
+      <a href="https://github.com/Minsu5452/driver-risk-prediction-platform"><b>저장소</b></a><br>
       <sub>LightGBM · SHAP · FastAPI · React · Nginx</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://korean-marine-accident-risk.vercel.app"><img src="assets/marine-risk.png" alt="연안 해양사고 위험 지도 대시보드 화면"></a>
-      <h3><a href="https://github.com/Minsu5452/korean-marine-accident-risk">연안 해양사고 위험 분석</a></h3>
+      <h3><a href="https://github.com/Minsu5452/marine-accident-risk-analysis">연안 해양사고 위험 분석</a></h3>
       해양사고 28,935건과 해양기상 관측을 결합해 격자×시간 단위 위험도를 추정하고, 기상과 사고의 연관을 시간층화 case-crossover로 검증했습니다.<br>지도 대시보드는 실제 분석 실행 결과를 키 없이 재생합니다.<br><br>
-      <a href="https://korean-marine-accident-risk.vercel.app"><b>🔗 라이브 데모</b></a> · <a href="https://github.com/Minsu5452/korean-marine-accident-risk">저장소</a><br>
+      <a href="https://korean-marine-accident-risk.vercel.app"><b>🔗 라이브 데모</b></a> · <a href="https://github.com/Minsu5452/marine-accident-risk-analysis">저장소</a><br>
       <sub>LightGBM · statsmodels · FastAPI · Next.js · MapLibre</sub>
     </td>
   </tr>
