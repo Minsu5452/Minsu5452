@@ -40,10 +40,11 @@
 ## Experience
 
 ### 데이콘 — Data Science팀 · 대회 매니저
-> `2025.12~현재` (5개월) · 대회·해커톤 기획·운영 / LLM 평가 시스템 개발 / 운수종사자 교통사고 위험 예측 모델·관리 웹 개발
+> `2025.12~현재` · 대회·해커톤 기획·운영 / 공공 데이터 분석 과제 2건 PL / LLM 평가 시스템 개발
 
 | 기간 | 프로젝트 | 기술 스택 | 성과 |
 | --- | --- | --- | --- |
+| 2026.06~현재 | 수요기관 입찰 모니터링 모델 개발 | — | 행안부·NIA·조달청 데이터 분석 사업, 과제 PL로 진행 중 |
 | 2026.02~2026.04 | LLM 평가 시스템 개발 | FastAPI · Redis · asyncio · Multi-LLM(Gemini/OpenAI/Anthropic) · Docker | LLM Council 2단계 채점 흐름 설계·구현, HMAC 콜백·사용자 보호 정책 수립 |
 | 2025.12~2026.04 | 운수종사자 교통사고 위험 예측 모델·관리 웹 개발 | React · Spring Boot(eGovFrame) · FastAPI · LightGBM/XGBoost/CatBoost · SHAP · Nginx | 행안부·NIA·한국교통안전공단 위탁사업, 경진대회 코드 기반 ML 모델·외부망 분리 환경 현장 배포까지 전 구간 진행 |
 
