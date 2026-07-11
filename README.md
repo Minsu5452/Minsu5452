@@ -46,7 +46,7 @@
   </tr>
 </table>
 
-이 외의 프로젝트는 배경·접근·결과까지 [포트폴리오 사이트](https://minsu5452.github.io/projects/)에 정리했습니다.
+나머지 17개 프로젝트는 [포트폴리오 사이트](https://minsu5452.github.io/projects/)에서 볼 수 있습니다.
 
 ## 💼 경력
 
