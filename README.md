@@ -30,7 +30,7 @@
     <td width="50%" valign="top">
       <a href="https://github.com/Minsu5452/driver-risk-prediction-platform"><img src="assets/driver-risk.png" alt="교통사고 위험 예측 플랫폼 대시보드 화면"></a>
       <h3><a href="https://github.com/Minsu5452/driver-risk-prediction-platform">교통사고 위험 예측 플랫폼</a></h3>
-      운수종사자의 검사 결과와 사고 이력을 학습한 앙상블 모델로 사고 위험도를 예측하고, SHAP 해석과 함께 화면에서 조회·관리합니다.<br>예측 모델과 FastAPI 서빙, 관리 웹, 망분리 운영 환경에 맞춘 오프라인 배포 체계까지 전 구간을 개발했습니다.<br><br>
+      운수종사자의 검사 결과와 사고 이력을 학습한 앙상블 모델로 사고 위험도를 예측하고, SHAP 해석과 함께 화면에서 조회·관리합니다.<br>예측 모델과 FastAPI 서빙, 관리 웹을 개발하고, 발주기관 폐쇄망 클라우드 환경에 실제 배포까지 수행했습니다.<br><br>
       <a href="https://github.com/Minsu5452/driver-risk-prediction-platform"><b>저장소</b></a><br>
       <sub>LightGBM · SHAP · FastAPI · React · Nginx</sub>
     </td>
@@ -61,7 +61,7 @@
 | 프로젝트 | 기간 | 역할 | 내용 |
 | --- | --- | :---: | --- |
 | **입찰 모니터링 모델 개발** | 2026.06&nbsp;–&nbsp;현재 | PL | 행안부·NIA·조달청 데이터 분석 사업 · 진행 중 |
-| **운수종사자 위험 예측 모델 개발** | 2025.12&nbsp;–&nbsp;2026.04 | PL | 행안부·NIA·한국교통안전공단 데이터 분석 사업.<br>예측 모델과 서빙 API·관리 웹·망분리 환경 배포까지 전 구간 수행 |
+| **운수종사자 위험 예측 모델 개발** | 2025.12&nbsp;–&nbsp;2026.04 | PL | 행안부·NIA·한국교통안전공단 데이터 분석 사업.<br>예측 모델과 서빙 API·관리 웹 개발, 폐쇄망 클라우드 환경 배포까지 전 구간 수행 |
 
 #### ▎기획·운영
 
